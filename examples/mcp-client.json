@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "ashtadhyayi": {
+      "command": "uv",
+      "args": [
+        "run", "--frozen", "--directory", "/absolute/path/to/AstadhyayiMCP",
+        "ashtadhyayi-mcp", "serve"
+      ]
+    }
+  }
+}

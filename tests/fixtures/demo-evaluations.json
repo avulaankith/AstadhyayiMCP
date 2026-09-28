@@ -1,0 +1,7 @@
+[
+  {"question": "इको यणचि इत्यस्य अर्थः कः?", "first_tool": "search_sutras", "number": "6.1.77"},
+  {"question": "What does 6.1.87 say?", "first_tool": "get_sutra", "number": "6.1.87"},
+  {"question": "Explain 8.4.999", "first_tool": "get_sutra", "insufficient": true},
+  {"question": "a question absent from the corpus", "first_tool": "search_sutras", "insufficient": true},
+  {"question": "अ", "first_tool": "search_sutras", "ambiguous": true}
+]

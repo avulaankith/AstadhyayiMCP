@@ -1,0 +1,728 @@
+{
+  "credit": "Ashtadhyayi.com — Neelesh Bodas and contributors; see THIRD_PARTY_NOTICES.md",
+  "manifest": {
+    "version": 1,
+    "upstream_revision": "5744762f010d677cfb43f347a42d02796cf615d6",
+    "files": {
+      "sutraani/data.txt": {
+        "sha256": "6a22591f418cd924ba4bd621944de2359cc06721b5ada79ef08d70f17a07bcc6",
+        "size": 3979366,
+        "retrieved_at": "2026-09-28T17:52:56.800309Z"
+      },
+      "dhatu/data.txt": {
+        "sha256": "e8c0e929294c4ab68455b461ee81234e7a0febac1b72e6873ea832354a28b641",
+        "size": 2505028,
+        "retrieved_at": "2026-09-28T17:52:57.000060Z"
+      },
+      "sutraani/sutrartha.txt": {
+        "sha256": "cb6229b3e91c8c1a2dd65f8dfaace1a6d44fcdcb65d900d507bfbda20921b35b",
+        "size": 10864022,
+        "retrieved_at": "2026-09-28T17:52:57.481284Z"
+      },
+      "sutraani/sutrartha_english.txt": {
+        "sha256": "2134792ab774a41a6b00d2694bf388a20a20085d14b6156718d8412cb8a5f3bf",
+        "size": 221149,
+        "retrieved_at": "2026-09-28T17:52:57.599658Z"
+      },
+      "sutraani/kashika.txt": {
+        "sha256": "ccd6d554d10acbe89fd566730a59731ace38b2aad982becbbd653b77cca93254",
+        "size": 3806703,
+        "retrieved_at": "2026-09-28T17:52:57.877331Z"
+      }
+    }
+  },
+  "sutras": [
+    {
+      "data": {
+        "number": "1.1.1",
+        "upstream_id": "11001",
+        "text": "वृद्धिरादैच्",
+        "upstream_record": {
+          "i": "11001",
+          "a": "1",
+          "p": "1",
+          "n": "1",
+          "s": "वृद्धिरादैच्",
+          "e": "vruddhiraadaich",
+          "skn": "16",
+          "lskn": "32",
+          "mskn": "35",
+          "sskn": "32",
+          "plskn": "24",
+          "lpn": "18",
+          "pc": "वृद्धिः$S$1$1$##आत्-ऐच्$S$1$1$",
+          "sk_chapter": "1",
+          "lsk_chapter": "2",
+          "type": "S$वृद्धिसंज्ञा$",
+          "an": "",
+          "ad": "",
+          "ss": "आत्-ऐच् वृद्धिः",
+          "rpn": "1",
+          "psn": "17",
+          "ps_chapter": "1"
+        }
+      },
+      "provenance": {
+        "provider": "ashtadhyayi-com",
+        "repository": "https://github.com/ashtadhyayi-com/data",
+        "source_path": "sutraani/data.txt",
+        "source_identifier": "11001",
+        "source_pointer": "/data/0",
+        "upstream_revision": "5744762f010d677cfb43f347a42d02796cf615d6",
+        "source_sha256": "6a22591f418cd924ba4bd621944de2359cc06721b5ada79ef08d70f17a07bcc6",
+        "retrieved_at": "2026-09-28T17:52:56.800309Z",
+        "source_url": "https://raw.githubusercontent.com/ashtadhyayi-com/data/5744762f010d677cfb43f347a42d02796cf615d6/sutraani/data.txt"
+      }
+    },
+    {
+      "data": {
+        "number": "1.1.75",
+        "upstream_id": "11075",
+        "text": "एङ् प्राचां देशे",
+        "upstream_record": {
+          "i": "11075",
+          "a": "1",
+          "p": "1",
+          "n": "75",
+          "s": "एङ् प्राचां देशे",
+          "e": "engpraachaamdeshe",
+          "skn": "1338",
+          "lskn": "0",
+          "mskn": "0",
+          "sskn": "0",
+          "plskn": "0",
+          "lpn": "0",
+          "pc": "एङ्$S$1$1$##प्राचाम्$S$6$3$##देशे$S$7$1$",
+          "sk_chapter": "28",
+          "lsk_chapter": "0",
+          "type": "S$वृद्धसंज्ञा$",
+          "an": "वृद्धम्$11073",
+          "ad": "",
+          "ss": "एङ् यस्य अचामादिः तत् प्राचाम् देशे वृद्धम् ",
+          "rpn": "70",
+          "psn": "1238",
+          "ps_chapter": "5"
+        }
+      },
+      "provenance": {
+        "provider": "ashtadhyayi-com",
+        "repository": "https://github.com/ashtadhyayi-com/data",
+        "source_path": "sutraani/data.txt",
+        "source_identifier": "11075",
+        "source_pointer": "/data/74",
+        "upstream_revision": "5744762f010d677cfb43f347a42d02796cf615d6",
+        "source_sha256": "6a22591f418cd924ba4bd621944de2359cc06721b5ada79ef08d70f17a07bcc6",
+        "retrieved_at": "2026-09-28T17:52:56.800309Z",
+        "source_url": "https://raw.githubusercontent.com/ashtadhyayi-com/data/5744762f010d677cfb43f347a42d02796cf615d6/sutraani/data.txt"
+      }
+    },
+    {
+      "data": {
+        "number": "1.2.1",
+        "upstream_id": "12001",
+        "text": "गाङ्कुटादिभ्योऽञ्णिन्ङित्",
+        "upstream_record": {
+          "i": "12001",
+          "a": "1",
+          "p": "2",
+          "n": "1",
+          "s": "गाङ्कुटादिभ्योऽञ्णिन्ङित्",
+          "e": "gaangkutaadibhyonyninngit",
+          "skn": "2461",
+          "lskn": "586",
+          "mskn": "686",
+          "sskn": "0",
+          "plskn": "0",
+          "lpn": "0",
+          "pc": "गाङ्-कुट्-आदिभ्यः$S$5$3$##अ-ञ्णित्$S$1$1$##ङित्$S$1$1$",
+          "sk_chapter": "44",
+          "lsk_chapter": "13",
+          "type": "AT$ङित्त्वातिदेशः$",
+          "an": "",
+          "ad": "",
+          "ss": "",
+          "rpn": "71",
+          "psn": "351",
+          "ps_chapter": "4"
+        }
+      },
+      "provenance": {
+        "provider": "ashtadhyayi-com",
+        "repository": "https://github.com/ashtadhyayi-com/data",
+        "source_path": "sutraani/data.txt",
+        "source_identifier": "12001",
+        "source_pointer": "/data/75",
+        "upstream_revision": "5744762f010d677cfb43f347a42d02796cf615d6",
+        "source_sha256": "6a22591f418cd924ba4bd621944de2359cc06721b5ada79ef08d70f17a07bcc6",
+        "retrieved_at": "2026-09-28T17:52:56.800309Z",
+        "source_url": "https://raw.githubusercontent.com/ashtadhyayi-com/data/5744762f010d677cfb43f347a42d02796cf615d6/sutraani/data.txt"
+      }
+    },
+    {
+      "data": {
+        "number": "6.1.75",
+        "upstream_id": "61075",
+        "text": "दीर्घात्",
+        "upstream_record": {
+          "i": "61075",
+          "a": "6",
+          "p": "1",
+          "n": "75",
+          "s": "दीर्घात्",
+          "e": "deerghaat",
+          "skn": "148",
+          "lskn": "0",
+          "mskn": "114",
+          "sskn": "0",
+          "plskn": "0",
+          "lpn": "0",
+          "pc": "दीर्घात्$S$5$1$",
+          "sk_chapter": "5",
+          "lsk_chapter": "0",
+          "type": "V$$",
+          "an": "तुक्$61071##छे$61073",
+          "ad": "संहितायाम्$6$1$72",
+          "ss": "दीर्घात् छे तुक् संहितायाम्",
+          "rpn": "0",
+          "psn": "80",
+          "ps_chapter": "2"
+        }
+      },
+      "provenance": {
+        "provider": "ashtadhyayi-com",
+        "repository": "https://github.com/ashtadhyayi-com/data",
+        "source_path": "sutraani/data.txt",
+        "source_identifier": "61075",
+        "source_pointer": "/data/2514",
+        "upstream_revision": "5744762f010d677cfb43f347a42d02796cf615d6",
+        "source_sha256": "6a22591f418cd924ba4bd621944de2359cc06721b5ada79ef08d70f17a07bcc6",
+        "retrieved_at": "2026-09-28T17:52:56.800309Z",
+        "source_url": "https://raw.githubusercontent.com/ashtadhyayi-com/data/5744762f010d677cfb43f347a42d02796cf615d6/sutraani/data.txt"
+      }
+    },
+    {
+      "data": {
+        "number": "6.1.76",
+        "upstream_id": "61076",
+        "text": "पदान्ताद्वा",
+        "upstream_record": {
+          "i": "61076",
+          "a": "6",
+          "p": "1",
+          "n": "76",
+          "s": "पदान्ताद्वा",
+          "e": "padaantaadvaa",
+          "skn": "149",
+          "lskn": "102",
+          "mskn": "115",
+          "sskn": "79",
+          "plskn": "0",
+          "lpn": "0",
+          "pc": "पदान्तात्$S$5$1$##वा$S$0$0$",
+          "sk_chapter": "5",
+          "lsk_chapter": "3",
+          "type": "V$$",
+          "an": "तुक्$61071##छे$61073##दीर्घात्$61075",
+          "ad": "संहितायाम्$6$1$72",
+          "ss": "दीर्घात् पदान्तात् संहितायाम् छे वा तुगागमः ",
+          "rpn": "0",
+          "psn": "81",
+          "ps_chapter": "2"
+        }
+      },
+      "provenance": {
+        "provider": "ashtadhyayi-com",
+        "repository": "https://github.com/ashtadhyayi-com/data",
+        "source_path": "sutraani/data.txt",
+        "source_identifier": "61076",
+        "source_pointer": "/data/2515",
+        "upstream_revision": "5744762f010d677cfb43f347a42d02796cf615d6",
+        "source_sha256": "6a22591f418cd924ba4bd621944de2359cc06721b5ada79ef08d70f17a07bcc6",
+        "retrieved_at": "2026-09-28T17:52:56.800309Z",
+        "source_url": "https://raw.githubusercontent.com/ashtadhyayi-com/data/5744762f010d677cfb43f347a42d02796cf615d6/sutraani/data.txt"
+      }
+    },
+    {
+      "data": {
+        "number": "6.1.77",
+        "upstream_id": "61077",
+        "text": "इको यणचि",
+        "upstream_record": {
+          "i": "61077",
+          "a": "6",
+          "p": "1",
+          "n": "77",
+          "s": "इको यणचि",
+          "e": "ikoyanachi",
+          "skn": "47",
+          "lskn": "15",
+          "mskn": "15",
+          "sskn": "16",
+          "plskn": "17",
+          "lpn": "43",
+          "pc": "इकः$S$6$1$##यण्$S$1$1$##अचि$S$7$1$",
+          "sk_chapter": "3",
+          "lsk_chapter": "2",
+          "type": "V$$",
+          "an": "",
+          "ad": "संहितायाम्$6$1$72",
+          "ss": "इकः यण् अचि संहितायाम् ",
+          "rpn": "844",
+          "psn": "107",
+          "ps_chapter": "3"
+        }
+      },
+      "provenance": {
+        "provider": "ashtadhyayi-com",
+        "repository": "https://github.com/ashtadhyayi-com/data",
+        "source_path": "sutraani/data.txt",
+        "source_identifier": "61077",
+        "source_pointer": "/data/2516",
+        "upstream_revision": "5744762f010d677cfb43f347a42d02796cf615d6",
+        "source_sha256": "6a22591f418cd924ba4bd621944de2359cc06721b5ada79ef08d70f17a07bcc6",
+        "retrieved_at": "2026-09-28T17:52:56.800309Z",
+        "source_url": "https://raw.githubusercontent.com/ashtadhyayi-com/data/5744762f010d677cfb43f347a42d02796cf615d6/sutraani/data.txt"
+      }
+    },
+    {
+      "data": {
+        "number": "6.1.78",
+        "upstream_id": "61078",
+        "text": "एचोऽयवायावः",
+        "upstream_record": {
+          "i": "61078",
+          "a": "6",
+          "p": "1",
+          "n": "78",
+          "s": "एचोऽयवायावः",
+          "e": "echoyavaayaavah",
+          "skn": "61",
+          "lskn": "22",
+          "mskn": "22",
+          "sskn": "22",
+          "plskn": "19",
+          "lpn": "44",
+          "pc": "एचः$S$6$1$##अय्-अव्-आय्-आवः$S$1$3$",
+          "sk_chapter": "3",
+          "lsk_chapter": "2",
+          "type": "V$$",
+          "an": "अचि$61077",
+          "ad": "संहितायाम्$6$1$72",
+          "ss": "एचः अचि अय्-अव्-आय्-आवः ",
+          "rpn": "845",
+          "psn": "114",
+          "ps_chapter": "3"
+        }
+      },
+      "provenance": {
+        "provider": "ashtadhyayi-com",
+        "repository": "https://github.com/ashtadhyayi-com/data",
+        "source_path": "sutraani/data.txt",
+        "source_identifier": "61078",
+        "source_pointer": "/data/2517",
+        "upstream_revision": "5744762f010d677cfb43f347a42d02796cf615d6",
+        "source_sha256": "6a22591f418cd924ba4bd621944de2359cc06721b5ada79ef08d70f17a07bcc6",
+        "retrieved_at": "2026-09-28T17:52:56.800309Z",
+        "source_url": "https://raw.githubusercontent.com/ashtadhyayi-com/data/5744762f010d677cfb43f347a42d02796cf615d6/sutraani/data.txt"
+      }
+    },
+    {
+      "data": {
+        "number": "6.1.79",
+        "upstream_id": "61079",
+        "text": "वान्तो यि प्रत्यये",
+        "upstream_record": {
+          "i": "61079",
+          "a": "6",
+          "p": "1",
+          "n": "79",
+          "s": "वान्तो यि प्रत्यये",
+          "e": "vaantoyipratyaye",
+          "skn": "63",
+          "lskn": "24",
+          "mskn": "24",
+          "sskn": "24",
+          "plskn": "0",
+          "lpn": "1037",
+          "pc": "वान्तः$S$1$1$##यि$S$7$1$##प्रत्यये$S$7$1$",
+          "sk_chapter": "3",
+          "lsk_chapter": "2",
+          "type": "V$$",
+          "an": "अचि$61077##एचः$61078",
+          "ad": "संहितायाम्$6$1$72",
+          "ss": "एचः यि-प्रत्यये वान्तः संहियाताम् ",
+          "rpn": "846",
+          "psn": "115",
+          "ps_chapter": "3"
+        }
+      },
+      "provenance": {
+        "provider": "ashtadhyayi-com",
+        "repository": "https://github.com/ashtadhyayi-com/data",
+        "source_path": "sutraani/data.txt",
+        "source_identifier": "61079",
+        "source_pointer": "/data/2518",
+        "upstream_revision": "5744762f010d677cfb43f347a42d02796cf615d6",
+        "source_sha256": "6a22591f418cd924ba4bd621944de2359cc06721b5ada79ef08d70f17a07bcc6",
+        "retrieved_at": "2026-09-28T17:52:56.800309Z",
+        "source_url": "https://raw.githubusercontent.com/ashtadhyayi-com/data/5744762f010d677cfb43f347a42d02796cf615d6/sutraani/data.txt"
+      }
+    },
+    {
+      "data": {
+        "number": "6.1.86",
+        "upstream_id": "61086",
+        "text": "षत्वतुकोरसिद्धः",
+        "upstream_record": {
+          "i": "61086",
+          "a": "6",
+          "p": "1",
+          "n": "86",
+          "s": "षत्वतुकोरसिद्धः",
+          "e": "shatvatukorasiddhah",
+          "skn": "3333",
+          "lskn": "0",
+          "mskn": "0",
+          "sskn": "0",
+          "plskn": "0",
+          "lpn": "47",
+          "pc": "षत्व-तुकोः$S$7$2$##असिद्धः$S$1$1$",
+          "sk_chapter": "68",
+          "lsk_chapter": "0",
+          "type": "V$$",
+          "an": "अचि$61077",
+          "ad": "संहितायाम्$6$1$72##एकः पूर्वपरयोः$6$1$84",
+          "ss": "एकः पूर्वपरयोः षत्वतुकोः असिद्धः ",
+          "rpn": "849",
+          "psn": "872",
+          "ps_chapter": "4"
+        }
+      },
+      "provenance": {
+        "provider": "ashtadhyayi-com",
+        "repository": "https://github.com/ashtadhyayi-com/data",
+        "source_path": "sutraani/data.txt",
+        "source_identifier": "61086",
+        "source_pointer": "/data/2525",
+        "upstream_revision": "5744762f010d677cfb43f347a42d02796cf615d6",
+        "source_sha256": "6a22591f418cd924ba4bd621944de2359cc06721b5ada79ef08d70f17a07bcc6",
+        "retrieved_at": "2026-09-28T17:52:56.800309Z",
+        "source_url": "https://raw.githubusercontent.com/ashtadhyayi-com/data/5744762f010d677cfb43f347a42d02796cf615d6/sutraani/data.txt"
+      }
+    },
+    {
+      "data": {
+        "number": "6.1.87",
+        "upstream_id": "61087",
+        "text": "आद्गुणः",
+        "upstream_record": {
+          "i": "61087",
+          "a": "6",
+          "p": "1",
+          "n": "87",
+          "s": "आद्गुणः",
+          "e": "aadgunah",
+          "skn": "69",
+          "lskn": "27",
+          "mskn": "30",
+          "sskn": "27",
+          "plskn": "22",
+          "lpn": "48",
+          "pc": "आत्$S$5$1$##गुणः$S$1$1$",
+          "sk_chapter": "3",
+          "lsk_chapter": "2",
+          "type": "V$$",
+          "an": "अचि$61077",
+          "ad": "संहितायाम्$6$1$72##एकः पूर्वपरयोः$6$1$84",
+          "ss": "आद् अचि पूर्वपरयोः एकः गुणः ",
+          "rpn": "850",
+          "psn": "123",
+          "ps_chapter": "3"
+        }
+      },
+      "provenance": {
+        "provider": "ashtadhyayi-com",
+        "repository": "https://github.com/ashtadhyayi-com/data",
+        "source_path": "sutraani/data.txt",
+        "source_identifier": "61087",
+        "source_pointer": "/data/2526",
+        "upstream_revision": "5744762f010d677cfb43f347a42d02796cf615d6",
+        "source_sha256": "6a22591f418cd924ba4bd621944de2359cc06721b5ada79ef08d70f17a07bcc6",
+        "retrieved_at": "2026-09-28T17:52:56.800309Z",
+        "source_url": "https://raw.githubusercontent.com/ashtadhyayi-com/data/5744762f010d677cfb43f347a42d02796cf615d6/sutraani/data.txt"
+      }
+    },
+    {
+      "data": {
+        "number": "6.1.88",
+        "upstream_id": "61088",
+        "text": "वृद्धिरेचि",
+        "upstream_record": {
+          "i": "61088",
+          "a": "6",
+          "p": "1",
+          "n": "88",
+          "s": "वृद्धिरेचि",
+          "e": "vruddhirechi",
+          "skn": "72",
+          "lskn": "33",
+          "mskn": "36",
+          "sskn": "33",
+          "plskn": "25",
+          "lpn": "49",
+          "pc": "वृद्धिः$S$1$1$##एचि$S$7$1$",
+          "sk_chapter": "3",
+          "lsk_chapter": "2",
+          "type": "V$$",
+          "an": "आत्$61087",
+          "ad": "संहितायाम्$6$1$72##एकः पूर्वपरयोः$6$1$84",
+          "ss": "आत् एचि पूर्वपरयोः एकः वृद्धिः",
+          "rpn": "851",
+          "psn": "125",
+          "ps_chapter": "3"
+        }
+      },
+      "provenance": {
+        "provider": "ashtadhyayi-com",
+        "repository": "https://github.com/ashtadhyayi-com/data",
+        "source_path": "sutraani/data.txt",
+        "source_identifier": "61088",
+        "source_pointer": "/data/2527",
+        "upstream_revision": "5744762f010d677cfb43f347a42d02796cf615d6",
+        "source_sha256": "6a22591f418cd924ba4bd621944de2359cc06721b5ada79ef08d70f17a07bcc6",
+        "retrieved_at": "2026-09-28T17:52:56.800309Z",
+        "source_url": "https://raw.githubusercontent.com/ashtadhyayi-com/data/5744762f010d677cfb43f347a42d02796cf615d6/sutraani/data.txt"
+      }
+    },
+    {
+      "data": {
+        "number": "8.4.68",
+        "upstream_id": "84068",
+        "text": "अ अ",
+        "upstream_record": {
+          "i": "84068",
+          "a": "8",
+          "p": "4",
+          "n": "68",
+          "s": "अ अ",
+          "e": "aaiti",
+          "skn": "11",
+          "lskn": "0",
+          "mskn": "0",
+          "sskn": "0",
+          "plskn": "0",
+          "lpn": "6",
+          "pc": "अ$S$0$0$##अ$S$0$0$",
+          "sk_chapter": "1",
+          "lsk_chapter": "0",
+          "type": "V$$",
+          "an": "",
+          "ad": "पूर्वत्रासिद्धम्$8$2$1##संहितायाम्$8$2$108",
+          "ss": "अ अ",
+          "rpn": "1535",
+          "psn": "16",
+          "ps_chapter": "1"
+        }
+      },
+      "provenance": {
+        "provider": "ashtadhyayi-com",
+        "repository": "https://github.com/ashtadhyayi-com/data",
+        "source_path": "sutraani/data.txt",
+        "source_identifier": "84068",
+        "source_pointer": "/data/3982",
+        "upstream_revision": "5744762f010d677cfb43f347a42d02796cf615d6",
+        "source_sha256": "6a22591f418cd924ba4bd621944de2359cc06721b5ada79ef08d70f17a07bcc6",
+        "retrieved_at": "2026-09-28T17:52:56.800309Z",
+        "source_url": "https://raw.githubusercontent.com/ashtadhyayi-com/data/5744762f010d677cfb43f347a42d02796cf615d6/sutraani/data.txt"
+      }
+    }
+  ],
+  "dhatus": [
+    {
+      "data": {
+        "upstream_id": "1010001",
+        "baseindex": "01.0001",
+        "text": "भू",
+        "aupadeshik": "भू",
+        "upstream_record": {
+          "i": "1010001",
+          "baseindex": "01.0001",
+          "dhatu": "भू",
+          "aupadeshik": "भू",
+          "gana": "1",
+          "pada": "P",
+          "settva": "S",
+          "karma": "A",
+          "artha": "सत्तायाम्",
+          "artha_english": "to exist, to become, to be, to happen",
+          "tags": "उदात्तोपदेशः,mspsetu,chittoor3,common",
+          "dhaturoopnandini": "1",
+          "sk": "1",
+          "lsk_sutra": "372",
+          "sk_sutra": "2165",
+          "artha_hindi": "होना",
+          "upasargas": [
+            {
+              "name": "अधि",
+              "artha_hindi": "सत्ता चलाना"
+            },
+            {
+              "name": "अनु",
+              "artha_hindi": "समझना, अनुभव करना"
+            },
+            {
+              "name": "अभि",
+              "artha_hindi": "जीतना, पीडा देना"
+            },
+            {
+              "name": "उद्",
+              "artha_hindi": "उत्पन्न होना"
+            },
+            {
+              "name": "परा",
+              "artha_hindi": "पराभव करना"
+            },
+            {
+              "name": "प्र",
+              "artha_hindi": "प्रकट होना, निकलना"
+            },
+            {
+              "name": "प्रति",
+              "artha_hindi": "बदले में देना"
+            },
+            {
+              "name": "परि",
+              "artha_hindi": "अपमान करना, तिरस्कार करना, घेरना"
+            },
+            {
+              "name": "वि",
+              "artha_hindi": "आश्रय देना, पालन करना"
+            },
+            {
+              "name": "वि + अति",
+              "artha_hindi": "परस्पर मित्र होना"
+            },
+            {
+              "name": "सम्",
+              "artha_hindi": "उत्पन्न होना, हो सकना"
+            }
+          ],
+          "antarganas": "",
+          "dhaturoopnandini_note": "\"सत्तायां भवति, प्राप्तौ णिचि भावयते तङि । भवते शपि तत्रैव, भावयत्यवकल्कने ॥ \" (श्लो. 3) इति देवः ।"
+        }
+      },
+      "provenance": {
+        "provider": "ashtadhyayi-com",
+        "repository": "https://github.com/ashtadhyayi-com/data",
+        "source_path": "dhatu/data.txt",
+        "source_identifier": "1010001",
+        "source_pointer": "/data/0",
+        "upstream_revision": "5744762f010d677cfb43f347a42d02796cf615d6",
+        "source_sha256": "e8c0e929294c4ab68455b461ee81234e7a0febac1b72e6873ea832354a28b641",
+        "retrieved_at": "2026-09-28T17:52:57.000060Z",
+        "source_url": "https://raw.githubusercontent.com/ashtadhyayi-com/data/5744762f010d677cfb43f347a42d02796cf615d6/dhatu/data.txt"
+      }
+    },
+    {
+      "data": {
+        "upstream_id": "1100277",
+        "baseindex": "10.0277",
+        "text": "भू",
+        "aupadeshik": "भू",
+        "upstream_record": {
+          "i": "1100277",
+          "baseindex": "10.0277",
+          "dhatu": "भू",
+          "aupadeshik": "भू",
+          "gana": "10",
+          "pada": "U",
+          "settva": "S",
+          "karma": "S",
+          "artha": "अवकल्कने",
+          "artha_english": "to mix, to think",
+          "tags": "उदात्तोपदेशः,नित्यणिच्",
+          "artha_note": "अस्य धातोः अर्थस्य विषये कौमुद्याम् उच्यते - <i>अवकल्कनं मिश्रीकरणमित्येके । चिन्तनमित्यन्ये </i>। 'अवकल्कन' शब्दस्य कैश्चन पण्डितैः 'मिश्रीकरणम्' (mixing) इति अर्थः स्वीक्रियते, कैश्चन अन्यैः च 'चिन्तनम्' इति अर्थः स्वीक्रियते - इति अस्य आशयः ।",
+          "dhaturoopnandini": "1748",
+          "sk": "1748",
+          "lsk_sutra": "",
+          "sk_sutra": "2571",
+          "artha_hindi": "मिलाना, मिश्रित करना, चिंतन करना",
+          "upasargas": [],
+          "antarganas": "",
+          "dhaturoopnandini_note": " ' भुवः अवकल्पने ' णिच् स्यात् । अवकल्कनं मिश्रीकरणम् इत्येके । चिन्तनमित्यन्ये । मा.धा.वृत्तौ कृदन्तरूपमालायां च अस्य धातोः अर्थस्य विषये विस्तृता चर्चा विहिता दृश्यते । पुरुषकारः वदति - ' मूलशुद्धिः अत्र कीदृशी इति न विद्मः ' इति । ' सत्तायां भवति, प्राप्तौ णिचि भावयते तङि । भवते शपि तत्रैव भावयत्यवकल्कने ' (श्लो. 3) - देवः ।"
+        }
+      },
+      "provenance": {
+        "provider": "ashtadhyayi-com",
+        "repository": "https://github.com/ashtadhyayi-com/data",
+        "source_path": "dhatu/data.txt",
+        "source_identifier": "1100277",
+        "source_pointer": "/data/2026",
+        "upstream_revision": "5744762f010d677cfb43f347a42d02796cf615d6",
+        "source_sha256": "e8c0e929294c4ab68455b461ee81234e7a0febac1b72e6873ea832354a28b641",
+        "retrieved_at": "2026-09-28T17:52:57.000060Z",
+        "source_url": "https://raw.githubusercontent.com/ashtadhyayi-com/data/5744762f010d677cfb43f347a42d02796cf615d6/dhatu/data.txt"
+      }
+    },
+    {
+      "data": {
+        "upstream_id": "1100382",
+        "baseindex": "10.0382",
+        "text": "भू",
+        "aupadeshik": "भू",
+        "upstream_record": {
+          "i": "1100382",
+          "baseindex": "10.0382",
+          "dhatu": "भू",
+          "aupadeshik": "भू",
+          "gana": "10",
+          "pada": "A",
+          "settva": "S",
+          "karma": "S",
+          "artha": "प्राप्तौ",
+          "artha_english": "to obtain, to receive, to get, to think",
+          "tags": "उदात्तोपदेशः,णिज्विकल्पः",
+          "dhaturoopnandini": "1845",
+          "sk": "1845",
+          "lsk_sutra": "",
+          "sk_sutra": "2572",
+          "artha_hindi": "प्राप्त करना, मिल जाना, चिंतन करना",
+          "upasargas": [],
+          "antarganas": "आधृषीयः",
+          "dhaturoopnandini_note": " सत्तायां भवति, प्राप्तौ णिचि भावयते तङि । भवते शपि तत्रैव भावयत्यवकल्कने ' (श्लो. 3) इति देवः ।"
+        }
+      },
+      "provenance": {
+        "provider": "ashtadhyayi-com",
+        "repository": "https://github.com/ashtadhyayi-com/data",
+        "source_path": "dhatu/data.txt",
+        "source_identifier": "1100382",
+        "source_pointer": "/data/2131",
+        "upstream_revision": "5744762f010d677cfb43f347a42d02796cf615d6",
+        "source_sha256": "e8c0e929294c4ab68455b461ee81234e7a0febac1b72e6873ea832354a28b641",
+        "retrieved_at": "2026-09-28T17:52:57.000060Z",
+        "source_url": "https://raw.githubusercontent.com/ashtadhyayi-com/data/5744762f010d677cfb43f347a42d02796cf615d6/dhatu/data.txt"
+      }
+    }
+  ],
+  "commentaries": {
+    "sutrartha": {
+      "61077": {
+        "sa": "इक्-वर्णस्य स्थाने स्वरे परे संहितायाम् यण्-वर्णादेशः भवति । ",
+        "sd": "<pt>\nइक् = इ, ई, उ, ऊ, ऋ, ॠ, ऌ  ।\nयण् = य्, व्, र्, ल् ।\nअच् = अ, आ, इ, ई, उ, ऊ, ऋ, ॠ, ऌ, ए, ऐ, ओ, औ ।\n</pt>\nइक्-वर्णानाम् स्थाने स्वरे परे संहितायाम् यण्-वर्णादेशाः भवन्ति । तत्र <<स्थानेऽन्तरतमः>> [[1.1.50]] इत्यनेन यथोचितम् आदेशाः विधीयन्ते । तद्यथा —\n<list>\n(1) <b>इकार-ईकारयोः स्थाने <<इचुयशानां तालु>> इति उच्चारणस्थानसाधर्म्यात् यकारादेशः भवति ।</b>\n<li>  दधि  + अत्र → दध्  य् + अत्र → दध्यत्र ।\n<li>  नदी  + ऊर्ध्वम् → नद् य् + ऊर्ध्वम् → नद्यूर्ध्वम् । \n<br>\n(2) <b>उकार-ऊकारयोः स्थाने <<उपूपध्मानीयानाम् ओष्ठौ>> तथा च <<वकारस्य दन्तोष्ठम्>> इत्यनयोः 'ओष्ठम्' इति उच्चारणस्थानसाधर्म्यात् वकारादेशः भवति ।</b>\n<li>  मधु  + इति → मध्  व् + इति → मध्विति ।\n<li>   वधू + आदेशः → वध् व् + आदेशः  → वध्वादेशः ।\n<br>\n(3) <b>ऋकार-ॠकारयोः स्थाने <<ऋटुरषाणां मूर्धा>> इति उच्चारणस्थानसाधर्म्यात् रेफादेशः भवति ।</b>\n<li>  पितृ  + इच्छा → पित् र्  + इच्छा → पित्रिच्छा ।\n<li>   ॠ + अस्य → र् + अस्य  → रस्य ।\n<br>\n(4) <b>ऌकारस्य स्थाने <<ऌतुलसानां दन्ताः>> इति उच्चारणस्थानसाधर्म्यात् लकारादेशः भवति ।</b>\n<li>  ऌ  + आकृतिः → ऌ + आकृतिः → ल् आकृतिः → लाकृतिः ।\n</list>\n<title>बाध्यबाधकभावः</title>\nप्रकृतसूत्रस्य द्वे अपवादसूत्रे स्तः —\n<list>\n1. इक्-वर्णात् परः <b>सवर्णः अच्-वर्णः</b> विद्यते चेत् प्रकृतसूत्रेण उक्तं यणादेशं बाधित्वा <<अकः सवर्णे दीर्घः>> [[6.1.101]] इत्यनेन सवर्णदीर्घादेशः भवति । यथा, <qt>नदी + इयम् → नदीयम्</qt> इति । \n2. यदिः (दीर्घः) ईकारः ऊकारः वा द्विवचनस्य रूपस्य अन्ते विद्यते, तर्हि प्रकृतसूत्रेण उक्तं यणादेशं बाधित्वा <<प्लुतप्रगृह्या अचि नित्यम्>> [[6.1.125]] इत्यनेन प्रकृतिभावः भवति (इत्युक्ते, सन्धिः न भवति) । यथा, <qt>धेनू + इमे → धेनू इमे</qt> इति । \n</list>\n<title>सवर्णग्रहणम्</title>\nअस्मिन् सूत्रे 'इक्' तथा 'अच्' एतौ अविधीयमानौ स्तः, अतः एतयोः प्रत्याहारयोः विद्यमानैः वर्णैः सवर्णस्यापि ग्रहणं भवति । इत्युक्ते —\n<list>\n<li>'इक्' इत्यत्र विद्यमानेन इकार-उकार-ऋकारैः दीर्घभेदस्यापि ग्रहणं सम्भवति । अत्र प्लुतस्य अपि ग्रहणं सम्भवति, परन्तु <<प्लुतप्रगृह्या अचि नित्यम्>> [[6.1.125]] इति सूत्रेण प्लुत-वर्णस्य अच्-वर्णे परे प्रकृतिभावः भवति, अतः तत्र सन्धिः नैव सम्भवति । \n<li>एवमेव अच्-प्रत्याहारे विद्यमानैः वर्णैः अपि दीर्घभेदस्य ग्रहणं क्रियते । अत्र सवर्णग्रहणेन प्लुतभेदस्यापि ग्रहणं सम्भवति, परन्तु प्लुतसंज्ञा त्रिपादीसूत्रैः एव सिद्ध्यति, अतः <<इको यणचि>> [[6.1.77]] सूत्रेण असिद्धत्वात् तत्र मूलः ह्रस्वस्वरः/दीर्घस्वरः एव दृश्यते । \n</list>\n<title>यथासङ्ख्यत्वेन आदेशनिर्णयः</title>\nअत्र इक् तथा यण् इत्यत्र उभयत्र चत्वारः वर्णाः सन्ति, अतः अत्र <<यथासंख्यमनुदेशः समानाम्>> [[1.3.10]] इत्यनेन अपि आदेशनिर्णयः सम्भवति । अतएव न्यासे पदमञ्जर्यां च — <i>इकां यणां च साम्याद् यथासङ्ख्यं भवति</i> — इति निर्देशः कृतः अस्ति ।"
+      },
+      "61087": {
+        "sa": "अवर्णात् अच्-वर्णे परे संहितायाम् पूर्वपरयोः एकः गुणः आदेशः भवति ।",
+        "sd": "अवर्णात् (अकारात् / आकारात्) संहितायाम् स्वरः विद्यते चेत् उभयोः <b>गुणैकादेशः</b> भवति । इत्युक्ते, 'गुण' इति संज्ञया निर्दिष्टः वर्णः आदेशरूपेण अत्र विधीयते । \nअष्टाध्याय्यां <<अदेङ् गुणः>> [[1.1.2]] इत्यनेन अकार-एकार-ओकाराणाम्  गुणसंज्ञा भवति । एतेषु कः वर्णः आदेशरूपेण विधीयेत — इति प्रश्ने जाते, <<स्थानेऽन्तरतमः>> [[1.1.50]] इत्यस्याः परिभाषायाः आश्रयः स्वीक्रियते । अनया परिभाषया एतत् ज्ञाप्यते, यत्  स्थानेन यः वर्णः सदृशतमः, तस्य आदेशरूपेण विधानम् भवति ।\n<bg><b>वर्णानाम् उच्चारणस्थानानि एतादृशानि</b> —  अवर्णस्य कण्ठः । इवर्णस्य तालु । उवर्णस्य ओष्ठौ । ऋवर्णस्य मूर्धा । ऌवर्णस्य दन्ताः । एकारस्य कण्ठतालु । ओकारस्य कण्ठोष्ठम् । रेफस्य मूर्धा ॥</bg>\nउदाहरणानि एतानि —\n<hl>1. अवर्णात् इवर्णे परे उभयोः एकादेशः <b>एकारः</b> विधीयते ।</hl> अवर्णस्य उच्चारणस्थानम् कण्ठः, इवर्णस्य उच्चारणस्थानम् तालु, एकारस्य उच्चारणस्थानम् कण्ठतालु - इति स्थानेन आन्तरतम्यम् सिद्ध्यति। यथा —\n<list>\n<li> देवानाम् इन्द्रः → देव + इन्द्रः → देवेन्द्रः ।\n<li> महान् च असौ इन्द्रश्च → महत् + इन्द्रः → महा + इन्द्र [<<आन्महतः समानाधिकरणजातीययोः>> [[6.3.46]] इति आकारादेशः] → महेन्द्रः ।\n<li> देवानाम् ईशः →‌ देव + ईशः → देवेशः।\n<li> महान् च असौ ईशश्च → महा + ईशः → महा + ईशः [<<आन्महतः समानाधिकरणजातीययोः>> [[6.3.46]] इति आकारादेशः] → महेशः ।\n</list>\n<hl>2. अवर्णात् उवर्णे परे उभयोः एकादेशः <b>ओकारः</b> विधीयते ।</hl> अवर्णस्य उच्चारणस्थानम् कण्ठः, उवर्णस्य उच्चारणस्थानम् ओष्ठौ, ओकारस्य उच्चारणस्थानम् कण्ठोष्ठम् - इति स्थानेन आन्तरतम्यम् सिद्ध्यति । यथा —\n<list>\n<li> सूर्यस्य उदयः → सूर्य + उदयः → सूर्योदयः ।\n<li> गङ्गायाः उदकम् → गङ्गा + उदकम् → गङ्गोदकम् ।\n<li> पादेन ऊनम् → पाद + ऊनम् →‌ पादोनम् । \n<li> एकया ऊनम् → एका + ऊनम् → एकोनम् । \n</list>\n<hl>3. अवर्णात् ऋवर्णे परे उभयोः एकादेशः <b>अर्</b> विधीयते ।</hl> अत्र अवर्णस्य उच्चारणस्थानम् कण्ठः, ऋवर्णस्य उच्चारणस्थानम् मूर्धा । गुणसंज्ञकेभ्यः त्रिभ्यः वर्णेभ्यः 'मूर्धा' इति उच्चारणस्थानम् कस्यापि वर्णस्य नास्ति । परन्तु <<उरण् रपरः>> [[1.1.51]] इत्यनेन सूत्रेण एतत् ज्ञायते यत् ऋकारस्य स्थाने जायमानः अकारः नित्यम् रेफेण सह (इत्युक्ते, 'अर्' इत्यस्मिन् रूपे) विधीयते । अतः अवर्णात् ऋवर्णे परे उभयोः केवलम् 'अ' इति आदेशः कदापि नैव भवति, अपितु 'अर्' इति रेफयुक्तः आदेशः एव सम्भवति । अस्मिन् आदेशे विद्यमानस्य अकारस्य उच्चारणस्थानम् कण्ठः, रेफस्य उच्चारणस्थानम् च मूर्धा; अतः अत्र स्थानसाधर्म्यम् अपि सिद्ध्यति । अतः अवर्णात् ऋवर्णे परे 'अर्' इत्येव आदेशरूपेण विधीयते । यथा —\n<list>\n<li> देवानाम्  ऋषिः → देव + ऋषिः → देवर्षिः । \n<li> महान् च असौ ऋषिः → महत् + ऋषिः → महा + ऋषिः [<<आन्महतः समानाधिकरणजातीययोः>> [[6.3.46]] इति आकारादेशः] → महर्षिः । आकार-ऋकारयोः अपि अर्-आदेशः एव भवति, 'आर्' इति न । \n<li> प्रथमश्च असौ ॠकारश्च → प्रथम + ॠकारः → प्रथमर्कार ।\n<li>  बालिकायाः ॠकारः → बालिका + ॠकारः → बालिकर्कार । आकार-ॠकारयोः अपि अर्-आदेशः एव भवति, 'आर्' इति न । \n</list>\n<hl>4. अवर्णात् ऌवर्णे परे उभयोः एकादेशः <b>अल्</b> विधीयते ।</hl> अत्र अवर्णस्य उच्चारणस्थानम् कण्ठः, ऌवर्णस्य उच्चारणस्थानम् दन्ताः । गुणसंज्ञकेभ्यः त्रिभ्यः वर्णेभ्यः 'दन्ताः' इति उच्चारणस्थानम् कस्यापि वर्णस्य नास्ति । परन्तु <<उरण् रपरः>> [[1.1.51]] इत्यनेन सूत्रेण एतत् ज्ञायते यत् ऌकारस्य स्थाने जायमानः अकारः नित्यम् लकारेण सह (इत्युक्ते, 'अल्' इत्यस्मिन् रूपे) विधीयते । अतः अवर्णात् ऌवर्णे परे उभयोः केवलम् 'अ' इति आदेशः कदापि नैव भवति, अपितु 'अल्' इति लकारयुक्तः आदेशः एव सम्भवति । अस्मिन् आदेशे विद्यमानस्य अकारस्य उच्चारणस्थानम् कण्ठः, लकारस्य उच्चारणस्थानम् च दन्ताः; अतः अत्र स्थानसाधर्म्यम् अपि सिद्ध्यति । अतः अवर्णात् ऌवर्णे परे 'अल्' इत्येव आदेशरूपेण विधीयते । यथा —\n<list>\n<li> कृष्णस्य ऌकारः → कृष्ण + ऌकारः →‌ कृष्णल्कारः ।\n<li> महान् च असौ ऌकारश्च → महत् + ऌकारः → महा + ऌकारः [<<आन्महतः समानाधिकरणजातीययोः>> [[6.3.46]] इति आकारादेशः] → महल्कारः । आकार-ऌकारयोः अपि अल्-आदेशः एव भवति, 'आल्' इति न । \n</list>\n<title>बाध्यबाधकभावः</title>\nप्रकृतसूत्रेण यद्यपि अचि परे गुणैकादेशः उक्तः अस्ति, तथापि अस्य सूत्रस्य प्रसक्तिः केवलम् 'इक्' वर्णे परे एव दृश्यते । अन्येषु वर्णेषु परेषु अस्य गुणादेशस्य सवर्णदीर्घेण वृद्ध्यादेशेन वा बाधः भवति । तदित्थम् —\n<list>\n1) अवर्णात् अवर्णे परे, प्रकृतसूत्रेण उभयोः गुणादेशे प्राप्ते, तद् बाधित्वा <<अकः सवर्णे दीर्घः>> [[6.1.101]] इत्यनेन पूर्वपरयोः एकः सवर्णदीर्घादेशः भवति ।\n2) अवर्णात् एच्-वर्णे परे  प्रकृतसूत्रेण उभयोः गुणादेशे प्राप्ते, तद् बाधित्वा <<वृद्धिरेचि>> [[6.1.88]] इत्यनेन पूर्वपरयोः एकः वृद्ध्येकादेशः भवति ।\n</list>"
+      }
+    },
+    "sutrartha_english": {
+      "61077": "An इक् letter which is followed by a स्वर is converted to a corresponding यण् letter in the context of संहिता. ",
+      "61087": "When an अवर्ण is followed by an अच् letter in the context of संहिता, both of them are replaced by a single गुण letter"
+    },
+    "kashika": {
+      "61077": "अचि परत इको यणादेशो भवति। दध्यत्र। मध्वत्र। कर्त्रर्थम्। हर्त्रर्थम्। लाकृतिः॥ इकः प्लुतपूर्वस्य सवर्णदीर्घबाधनार्थं यणादेशो वक्तव्यः॥ भो३ इ इन्द्रम्। भो३यिन्द्रम्। अचीति चायमधिकारः  <<संप्रसारणाच्च>> [[६.१.१०८]] इति यावत्॥",
+      "61087": "अचीत्यनुवर्तते। अवर्णात् परो योऽच् अचि च पूर्वो योऽवर्णः, तयोः पूर्वपरयोरवर्णाचोः स्थान एको गुण आदेशो भवति। तवेदम्। खट्वेन्द्रः। मालेन्द्रः। तवेहते। खट्वेहते। तवोदकम्। खट्वोदकम्। तवर्श्यः। खट्वर्श्यः। तवल्कारः। खट्वल्कारः। ऌकारस्य स्थाने योऽण् तस्य लपरत्वमिष्यते॥"
+    }
+  }
+}

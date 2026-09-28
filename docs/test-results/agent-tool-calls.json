@@ -1,0 +1,2040 @@
+[
+  {
+    "id": "item_1",
+    "type": "mcp_tool_call",
+    "server": "ashtadhyayi",
+    "tool": "get_form_coverage",
+    "arguments": {},
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"status\": \"ok\", \"snapshot\": {\"upstream_revision\": \"5744762f010d677cfb43f347a42d02796cf615d6\", \"adapter_version\": \"0.2.0\", \"loaded_commentary_sources\": [\"sutrartha\", \"sutrartha_english\", \"kashika\"], \"loaded_form_sources\": [\"dhatu/dhatuforms_krut.txt\", \"dhatu/dhatuforms_vidyut_shuddha_kartari.txt\", \"dhatu/dhatuforms_vidyut_shuddha_karmani.txt\", \"dhatu/dhatuforms_vidyut_nich_kartari.txt\", \"dhatu/dhatuforms_vidyut_nich_karmani.txt\", \"dhatu/dhatuforms_vidyut_san_kartari.txt\", \"dhatu/dhatuforms_vidyut_san_karmani.txt\", \"dhatu/dhatuforms_vidyut_yang_kartari.txt\", \"dhatu/dhatuforms_vidyut_yang_karmani.txt\", \"dhatu/dhatuforms_vidyut_yangluk_kartari.txt\", \"dhatu/dhatuforms_vidyut_yangluk_karmani.txt\", \"dhatu/dhatuforms_vidyut_shuddha_krut.txt\", \"dhatu/dhatuforms_vidyut_nich_krut.txt\", \"dhatu/dhatuforms_vidyut_san_krut.txt\", \"dhatu/dhatuforms_vidyut_yang_krut.txt\", \"dhatu/dhatuforms_vidyut_yangluk_krut.txt\", \"shabda/data2.txt\"]}, \"data\": {\"sources\": [{\"data\": {\"source_path\": \"dhatu/dhatuforms_krut.txt\", \"family\": \"upstream\", \"category\": \"krdanta\", \"derivation\": null, \"prayoga\": null, \"records\": 1983, \"paradigm_fields\": 22270, \"unparsed_groups\": 0, \"unlinked_identifiers\": [], \"available_keys\": [\"अनीयर्\", \"क्त\", \"क्तवतुँ\", \"क्त्वा\", \"ण्वुल्\", \"तव्य\", \"तुमुन्\", \"तृच्\", \"ल्यप्\", \"ल्युट्\", \"शतृ\", \"शतृँ\", \"शानच्\"]}, \"provenance\": {\"provider\": \"ashtadhyayi-com\", \"repository\": \"https://github.com/ashtadhyayi-com/data\", \"source_path\": \"dhatu/dhatuforms_krut.txt\", \"source_identifier\": \"dhatu/dhatuforms_krut.txt\", \"source_pointer\": \"\", \"upstream_revision\": \"5744762f010d677cfb43f347a42d02796cf615d6\", \"source_sha256\": \"433853341ba4057b4e263777e7442d26946da1513af9140560957ea057a8c6d0\", \"retrieved_at\": \"2026-09-28T18:19:09.810295Z\", \"source_url\": \"https://raw.githubusercontent.com/ashtadhyayi-com/data/5744762f010d677cfb43f347a42d02796cf615d6/dhatu/dhatuforms_krut.txt\"}}, {\"data\": {\"source_path\": \"dhatu/dhatuforms_vidyut_shuddha_kartari.txt\", \"family\": \"vidyut\", \"category\": \"tinanta\", \"derivation\": \"shuddha\", \"prayoga\": \"kartari\", \"records\": 2229, \"paradigm_fields\": 28304, \"unparsed_groups\": 0, \"unlinked_identifiers\": [], \"available_keys\": [\"aashirling\", \"alang\", \"alat\", \"alit\", \"alot\", \"alrung\", \"alrut\", \"alung\", \"alut\", \"avidhiling\", \"pashirling\", \"plang\", \"plat\", \"plit\", \"plot\", \"plrung\", \"plrut\", \"plung\", \"plut\", \"pvidhiling\"]}, \"provenance\": {\"provider\": \"ashtadhyayi-com\", \"repository\": \"https://github.com/ashtadhyayi-com/data\", \"source_path\": \"dhatu/dhatuforms_vidyut_shuddha_kartari.txt\", \"source_identifier\": \"dhatu/dhatuforms_vidyut_shuddha_kartari.txt\", \"source_pointer\": \"\", \"upstream_revision\": \"5744762f010d677cfb43f347a42d02796cf615d6\", \"source_sha256\": \"2b58781b2da74e74e970a0f79be84b7140e5efdb2dd28afe7c86725a6281b2c5\", \"retrieved_at\": \"2026-09-28T18:19:10.318780Z\", \"source_url\": \"https://raw.githubusercontent.com/ashtadhyayi-com/data/5744762f010d677cfb43f347a42d02796cf615d6/dhatu/dhatuforms_vidyut_shuddha_kartari.txt\"}}, {\"data\": {\"source_path\": \"dhatu/dhatuforms_vidyut_shuddha_karmani.txt\", \"family\": \"vidyut\", \"category\": \"tinanta\", \"derivation\": \"shuddha\", \"prayoga\": \"karmani\", \"records\": 2229, \"paradigm_fields\": 22290, \"unparsed_groups\": 0, \"unlinked_identifiers\": [], \"available_keys\": [\"aashirling\", \"alang\", \"alat\", \"alit\", \"alot\", \"alrung\", \"alrut\", \"alung\", \"alut\", \"avidhiling\"]}, \"provenance\": {\"provider\": \"ashtadhyayi-com\", \"repository\": \"https://github.com/ashtadhyayi-com/data\", \"source_path\": \"dhatu/dhatuforms_vidyut_shuddha_karmani.txt\", \"source_identifier\": \"dhatu/dhatuforms_vidyut_shuddha_karmani.txt\", \"source_pointer\": \"\", \"upstream_revision\": \"5744762f010d677cfb43f347a42d02796cf615d6\", \"source_sha256\": \"767a3e9f3af359fd093e47282b5ff28ac84d13bc549087fe7b2661032b8564aa\", \"retrieved_at\": \"2026-09-28T18:19:10.788290Z\", \"source_url\": \"https://raw.githubusercontent.com/ashtadhyayi-com/data/5744762f010d677cfb43f347a42d02796cf615d6/dhatu/dhatuforms_vidyut_shuddha_karmani.txt\"}}, {\"data\": {\"source_path\": \"dhatu/dhatuforms_vidyut_nich_kartari.txt\", \"family\": \"vidyut\", \"category\": \"tinanta\", \"derivation\": \"nich\", \"prayoga\": \"kartari\", \"records\": 2229, \"paradigm_fields\": 44500, \"unparsed_groups\": 0, \"unlinked_identifiers\": [], \"available_keys\": [\"aashirling\", \"alang\", \"alat\", \"alit\", \"alot\", \"alrung\", \"alrut\", \"alung\", \"alut\", \"avidhiling\", \"pashirling\", \"plang\", \"plat\", \"plit\", \"plot\", \"plrung\", \"plrut\", \"plung\", \"plut\", \"pvidhiling\"]}, \"provenance\": {\"provider\": \"ashtadhyayi-com\", \"repository\": \"https://github.com/ashtadhyayi-com/data\", \"source_path\": \"dhatu/dhatuforms_vidyut_nich_kartari.txt\", \"source_identifier\": \"dhatu/dhatuforms_vidyut_nich_kartari.txt\", \"source_pointer\": \"\", \"upstream_revision\": \"5744762f010d677cfb43f347a42d02796cf615d6\", \"source_sha256\": \"7135d8cbaaffe48855ea8cda1907825174c8e90502371d13326b91564f69c93f\", \"retrieved_at\": \"2026-09-28T18:19:11.537080Z\", \"source_url\": \"https://raw.githubusercontent.com/ashtadhyayi-com/data/5744762f010d677cfb43f347a42d02796cf615d6/dhatu/dhatuforms_vidyut_nich_kartari.txt\"}}, {\"data\": {\"source_path\": \"dhatu/dhatuforms_vidyut_nich_karmani.txt\", \"family\": \"vidyut\", \"category\": \"tinanta\", \"derivation\": \"nich\", \"prayoga\": \"karmani\", \"records\": 2229, \"paradigm_fields\": 22290, \"unparsed_groups\": 0, \"unlinked_identifiers\": [], \"available_keys\": [\"aashirling\", \"alang\", \"alat\", \"alit\", \"alot\", \"alrung\", \"alrut\", \"alung\", \"alut\", \"avidhiling\"]}, \"provenance\": {\"provider\": \"ashtadhyayi-com\", \"repository\": \"https://github.com/ashtadhyayi-com/data\", \"source_path\": \"dhatu/dhatuforms_vidyut_nich_karmani.txt\", \"source_identifier\": \"dhatu/dhatuforms_vidyut_nich_karmani.txt\", \"source_pointer\": \"\", \"upstream_revision\": \"5744762f010d677cfb43f347a42d02796cf615d6\", \"source_sha256\": \"c7a6325692716f180f0e043ecaae73071cae3bd42a5fa36525c4f819c5136c45\", \"retrieved_at\": \"2026-09-28T18:19:12.387457Z\", \"source_url\": \"https://raw.githubusercontent.com/ashtadhyayi-com/data/5744762f010d677cfb43f347a42d02796cf615d6/dhatu/dhatuforms_vidyut_nich_karmani.txt\"}}, {\"data\": {\"source_path\": \"dhatu/dhatuforms_vidyut_san_kartari.txt\", \"family\": \"vidyut\", \"category\": \"tinanta\", \"derivation\": \"san\", \"prayoga\": \"kartari\", \"records\": 2229, \"paradigm_fields\": 28782, \"unparsed_groups\": 0, \"unlinked_identifiers\": [], \"available_keys\": [\"aashirling\", \"alang\", \"alat\", \"alit\", \"alot\", \"alrung\", \"alrut\", \"alung\", \"alut\", \"avidhiling\", \"pashirling\", \"plang\", \"plat\", \"plit\", \"plot\", \"plrung\", \"plrut\", \"plung\", \"plut\", \"pvidhiling\"]}, \"provenance\": {\"provider\": \"ashtadhyayi-com\", \"repository\": \"https://github.com/ashtadhyayi-com/data\", \"source_path\": \"dhatu/dhatuforms_vidyut_san_kartari.txt\", \"source_identifier\": \"dhatu/dhatuforms_vidyut_san_kartari.txt\", \"source_pointer\": \"\", \"upstream_revision\": \"5744762f010d677cfb43f347a42d02796cf615d6\", \"source_sha256\": \"924684d3b4556c7ce40ab308beb060a775c34b89c5045818bcb769ce13bffb35\", \"retrieved_at\": \"2026-09-28T18:19:13.029335Z\", \"source_url\": \"https://raw.githubusercontent.com/ashtadhyayi-com/data/5744762f010d677cfb43f347a42d02796cf615d6/dhatu/dhatuforms_vidyut_san_kartari.txt\"}}, {\"data\": {\"source_path\": \"dhatu/dhatuforms_vidyut_san_karmani.txt\", \"family\": \"vidyut\", \"category\": \"tinanta\", \"derivation\": \"san\", \"prayoga\": \"karmani\", \"records\": 2229, \"paradigm_fields\": 22290, \"unparsed_groups\": 0, \"unlinked_identifiers\": [], \"available_keys\": [\"aashirling\", \"alang\", \"alat\", \"alit\", \"alot\", \"alrung\", \"alrut\", \"alung\", \"alut\", \"avidhiling\"]}, \"provenance\": {\"provider\": \"ashtadhyayi-com\", \"repository\": \"https://github.com/ashtadhyayi-com/data\", \"source_path\": \"dhatu/dhatuforms_vidyut_san_karmani.txt\", \"source_identifier\": \"dhatu/dhatuforms_vidyut_san_karmani.txt\", \"source_pointer\": \"\", \"upstream_revision\": \"5744762f010d677cfb43f347a42d02796cf615d6\", \"source_sha256\": \"57ca45c30150f41ce33164caebd0e36686f83100a175df60991fab2c2b90dce0\", \"retrieved_at\": \"2026-09-28T18:19:13.640174Z\", \"source_url\": \"https://raw.githubusercontent.com/ashtadhyayi-com/data/5744762f010d677cfb43f347a42d02796cf615d6/dhatu/dhatuforms_vidyut_san_karmani.txt\"}}, {\"data\": {\"source_path\": \"dhatu/dhatuforms_vidyut_yang_kartari.txt\", \"family\": \"vidyut\", \"category\": \"tinanta\", \"derivation\": \"yang\", \"prayoga\": \"kartari\", \"records\": 1782, \"paradigm_fields\": 17792, \"unparsed_groups\": 0, \"unlinked_identifiers\": [], \"available_keys\": [\"aashirling\", \"alang\", \"alat\", \"alit\", \"alot\", \"alrung\", \"alrut\", \"alung\", \"alut\", \"avidhiling\"]}, \"provenance\": {\"provider\": \"ashtadhyayi-com\", \"repository\": \"https://github.com/ashtadhyayi-com/data\", \"source_path\": \"dhatu/dhatuforms_vidyut_yang_kartari.txt\", \"source_identifier\": \"dhatu/dhatuforms_vidyut_yang_kartari.txt\", \"source_pointer\": \"\", \"upstream_revision\": \"5744762f010d677cfb43f347a42d02796cf615d6\", \"source_sha256\": \"a07384d4365f98816940a9d37068318ee72fc3504a5869d2fcdaf0457a2271d8\", \"retrieved_at\": \"2026-09-28T18:19:14.119825Z\", \"source_url\": \"https://raw.githubusercontent.com/ashtadhyayi-com/data/5744762f010d677cfb43f347a42d02796cf615d6/dhatu/dhatuforms_vidyut_yang_kartari.txt\"}}, {\"data\": {\"source_path\": \"dhatu/dhatuforms_vidyut_yang_karmani.txt\", \"family\": \"vidyut\", \"category\": \"tinanta\", \"derivation\": \"yang\", \"prayoga\": \"karmani\", \"records\": 1782, \"paradigm_fields\": 17820, \"unparsed_groups\": 0, \"unlinked_identifiers\": [], \"available_keys\": [\"aashirling\", \"alang\", \"alat\", \"alit\", \"alot\", \"alrung\", \"alrut\", \"alung\", \"alut\", \"avidhiling\"]}, \"provenance\": {\"provider\": \"ashtadhyayi-com\", \"repository\": \"https://github.com/ashtadhyayi-com/data\", \"source_path\": \"dhatu/dhatuforms_vidyut_yang_karmani.txt\", \"source_identifier\": \"dhatu/dhatuforms_vidyut_yang_karmani.txt\", \"source_pointer\": \"\", \"upstream_revision\": \"5744762f010d677cfb43f347a42d02796cf615d6\", \"source_sha256\": \"13b7618d283b260391804113ef5c658f357852ff02e7e96ec1cb889cb2e1b89c\", \"retrieved_at\": \"2026-09-28T18:19:14.581514Z\", \"source_url\": \"https://raw.githubusercontent.com/ashtadhyayi-com/data/5744762f010d677cfb43f347a42d02796cf615d6/dhatu/dhatuforms_vidyut_yang_karmani.txt\"}}, {\"data\": {\"source_path\": \"dhatu/dhatuforms_vidyut_yangluk_kartari.txt\", \"family\": \"vidyut\", \"category\": \"tinanta\", \"derivation\": \"yangluk\", \"prayoga\": \"kartari\", \"records\": 1782, \"paradigm_fields\": 17792, \"unparsed_groups\": 0, \"unlinked_identifiers\": [], \"available_keys\": [\"pashirling\", \"plang\", \"plat\", \"plit\", \"plot\", \"plrung\", \"plrut\", \"plung\", \"plut\", \"pvidhiling\"]}, \"provenance\": {\"provider\": \"ashtadhyayi-com\", \"repository\": \"https://github.com/ashtadhyayi-com/data\", \"source_path\": \"dhatu/dhatuforms_vidyut_yangluk_kartari.txt\", \"source_identifier\": \"dhatu/dhatuforms_vidyut_yangluk_kartari.txt\", \"source_pointer\": \"\", \"upstream_revision\": \"5744762f010d677cfb43f347a42d02796cf615d6\", \"source_sha256\": \"d1de5b57fc7b6a1696dda815be58428fc6b12f9ca29e1877861ec0458e39b1d4\", \"retrieved_at\": \"2026-09-28T18:19:15.282149Z\", \"source_url\": \"https://raw.githubusercontent.com/ashtadhyayi-com/data/5744762f010d677cfb43f347a42d02796cf615d6/dhatu/dhatuforms_vidyut_yangluk_kartari.txt\"}}, {\"data\": {\"source_path\": \"dhatu/dhatuforms_vidyut_yangluk_karmani.txt\", \"family\": \"vidyut\", \"category\": \"tinanta\", \"derivation\": \"yangluk\", \"prayoga\": \"karmani\", \"records\": 1782, \"paradigm_fields\": 17820, \"unparsed_groups\": 0, \"unlinked_identifiers\": [], \"available_keys\": [\"aashirling\", \"alang\", \"alat\", \"alit\", \"alot\", \"alrung\", \"alrut\", \"alung\", \"alut\", \"avidhiling\"]}, \"provenance\": {\"provider\": \"ashtadhyayi-com\", \"repository\": \"https://github.com/ashtadhyayi-com/data\", \"source_path\": \"dhatu/dhatuforms_vidyut_yangluk_karmani.txt\", \"source_identifier\": \"dhatu/dhatuforms_vidyut_yangluk_karmani.txt\", \"source_pointer\": \"\", \"upstream_revision\": \"5744762f010d677cfb43f347a42d02796cf615d6\", \"source_sha256\": \"ba6532dabf29168917997ff67ac0401134d883fe2815ea916392de930938fa60\", \"retrieved_at\": \"2026-09-28T18:19:15.771029Z\", \"source_url\": \"https://raw.githubusercontent.com/ashtadhyayi-com/data/5744762f010d677cfb43f347a42d02796cf615d6/dhatu/dhatuforms_vidyut_yangluk_karmani.txt\"}}, {\"data\": {\"source_path\": \"dhatu/dhatuforms_vidyut_shuddha_krut.txt\", \"family\": \"vidyut\", \"category\": \"krdanta\", \"derivation\": \"shuddha\", \"prayoga\": null, \"records\": 2229, \"paradigm_fields\": 50705, \"unparsed_groups\": 0, \"unlinked_identifiers\": [], \"available_keys\": [\"अ\", \"अङ्\", \"अच्\", \"अतृन्\", \"अथुच्\", \"अनीयर्\", \"अप्\", \"आरु\", \"आलुच्\", \"इत्र\", \"उ\", \"उकञ्\", \"कुरच्\", \"क्त\", \"क्तवतु\", \"क्तिन्\", \"क्त्रि\", \"क्त्वा\", \"क्नु\", \"क्मरच्\", \"क्यप्\", \"क्रु\", \"क्रुकन्\", \"क्लुकन्\", \"क्वरप्\", \"क्वसु\", \"ग्स्नु\", \"घञ्\", \"घिनुण्\", \"घुरच्\", \"ङ्वनिप्\", \"चानश्\", \"ण\", \"णमुल्\", \"ण्यत्\", \"ण्युट्\", \"ण्वुल्\", \"तव्य\", \"तुमुन्\", \"तृच्\", \"थकन्\", \"नङ्\", \"नजिङ्\", \"नन्\", \"भावकर्म-शानच्\", \"यत्\", \"र\", \"ल्यप्\", \"ल्यु\", \"ल्युट्\", \"वरच्\", \"वुञ्\", \"वुन्\", \"श\", \"शतृ\", \"शानच्\", \"शानन्\", \"षाकन्\", \"ष्ट्रन्\", \"ष्वुन्\", \"स्य-भावकर्म-शानच्\", \"स्य-शतृ\", \"स्य-शानच्\"]}, \"provenance\": {\"provider\": \"ashtadhyayi-com\", \"repository\": \"https://github.com/ashtadhyayi-com/data\", \"source_path\": \"dhatu/dhatuforms_vidyut_shuddha_krut.txt\", \"source_identifier\": \"dhatu/dhatuforms_vidyut_shuddha_krut.txt\", \"source_pointer\": \"\", \"upstream_revision\": \"5744762f010d677cfb43f347a42d02796cf615d6\", \"source_sha256\": \"e38175442ead2303d2016e2e037d4aa88965449fa1e395685f922aee115fac02\", \"retrieved_at\": \"2026-09-28T18:19:16.086453Z\", \"source_url\": \"https://raw.githubusercontent.com/ashtadhyayi-com/data/5744762f010d677cfb43f347a42d02796cf615d6/dhatu/dhatuforms_vidyut_shuddha_krut.txt\"}}, {\"data\": {\"source_path\": \"dhatu/dhatuforms_vidyut_nich_krut.txt\", \"family\": \"vidyut\", \"category\": \"krdanta\", \"derivation\": \"nich\", \"prayoga\": null, \"records\": 2229, \"paradigm_fields\": 51160, \"unparsed_groups\": 0, \"unlinked_identifiers\": [], \"available_keys\": [\"अच्\", \"अनीयर्\", \"आलुच्\", \"क्त\", \"क्तवतु\", \"क्तिन्\", \"क्त्वा\", \"क्वसु\", \"चानश्\", \"णमुल्\", \"ण्वुल्\", \"तव्य\", \"तुमुन्\", \"तृच्\", \"भावकर्म-शानच्\", \"यत्\", \"ल्यप्\", \"ल्युट्\", \"वुन्\", \"श\", \"शतृ\", \"शानच्\", \"स्य-भावकर्म-शानच्\", \"स्य-शतृ\", \"स्य-शानच्\"]}, \"provenance\": {\"provider\": \"ashtadhyayi-com\", \"repository\": \"https://github.com/ashtadhyayi-com/data\", \"source_path\": \"dhatu/dhatuforms_vidyut_nich_krut.txt\", \"source_identifier\": \"dhatu/dhatuforms_vidyut_nich_krut.txt\", \"source_pointer\": \"\", \"upstream_revision\": \"5744762f010d677cfb43f347a42d02796cf615d6\", \"source_sha256\": \"14cbb9dbba9ed7a00716f6b2397b859a50ed957d5bb6f061e5ec3a785ef73365\", \"retrieved_at\": \"2026-09-28T18:19:16.544739Z\", \"source_url\": \"https://raw.githubusercontent.com/ashtadhyayi-com/data/5744762f010d677cfb43f347a42d02796cf615d6/dhatu/dhatuforms_vidyut_nich_krut.txt\"}}, {\"data\": {\"source_path\": \"dhatu/dhatuforms_vidyut_san_krut.txt\", \"family\": \"vidyut\", \"category\": \"krdanta\", \"derivation\": \"san\", \"prayoga\": null, \"records\": 2229, \"paradigm_fields\": 54682, \"unparsed_groups\": 0, \"unlinked_identifiers\": [], \"available_keys\": [\"अ\", \"अच्\", \"अनीयर्\", \"उ\", \"क्त\", \"क्तवतु\", \"क्तिन्\", \"क्त्वा\", \"क्वसु\", \"घञ्\", \"चानश्\", \"णमुल्\", \"ण्वुल्\", \"तव्य\", \"तुमुन्\", \"तृच्\", \"भावकर्म-शानच्\", \"यत्\", \"ल्यप्\", \"ल्युट्\", \"वुन्\", \"शतृ\", \"शानच्\", \"स्य-भावकर्म-शानच्\", \"स्य-शतृ\", \"स्य-शानच्\"]}, \"provenance\": {\"provider\": \"ashtadhyayi-com\", \"repository\": \"https://github.com/ashtadhyayi-com/data\", \"source_path\": \"dhatu/dhatuforms_vidyut_san_krut.txt\", \"source_identifier\": \"dhatu/dhatuforms_vidyut_san_krut.txt\", \"source_pointer\": \"\", \"upstream_revision\": \"5744762f010d677cfb43f347a42d02796cf615d6\", \"source_sha256\": \"ddf8ad9662e4c1ed848ae19b8d6ea1a6e94000d09041f9a4f4b3c6590a917cf5\", \"retrieved_at\": \"2026-09-28T18:19:17.092761Z\", \"source_url\": \"https://raw.githubusercontent.com/ashtadhyayi-com/data/5744762f010d677cfb43f347a42d02796cf615d6/dhatu/dhatuforms_vidyut_san_krut.txt\"}}, {\"data\": {\"source_path\": \"dhatu/dhatuforms_vidyut_yang_krut.txt\", \"family\": \"vidyut\", \"category\": \"krdanta\", \"derivation\": \"yang\", \"prayoga\": null, \"records\": 1782, \"paradigm_fields\": 40953, \"unparsed_groups\": 0, \"unlinked_identifiers\": [], \"available_keys\": [\"अ\", \"अच्\", \"अनीयर्\", \"क्त\", \"क्तवतु\", \"क्तिन्\", \"क्त्वा\", \"क्वसु\", \"घञ्\", \"चानश्\", \"णमुल्\", \"ण्वुल्\", \"तव्य\", \"तुमुन्\", \"तृच्\", \"भावकर्म-शानच्\", \"यत्\", \"ल्यप्\", \"ल्युट्\", \"वरच्\", \"वुन्\", \"शानच्\", \"स्य-भावकर्म-शानच्\", \"स्य-शानच्\"]}, \"provenance\": {\"provider\": \"ashtadhyayi-com\", \"repository\": \"https://github.com/ashtadhyayi-com/data\", \"source_path\": \"dhatu/dhatuforms_vidyut_yang_krut.txt\", \"source_identifier\": \"dhatu/dhatuforms_vidyut_yang_krut.txt\", \"source_pointer\": \"\", \"upstream_revision\": \"5744762f010d677cfb43f347a42d02796cf615d6\", \"source_sha256\": \"b2f481536dc670662bb6cced2b5ed358b447670fbb1e90cd701773c8845cb69a\", \"retrieved_at\": \"2026-09-28T18:19:17.499322Z\", \"source_url\": \"https://raw.githubusercontent.com/ashtadhyayi-com/data/5744762f010d677cfb43f347a42d02796cf615d6/dhatu/dhatuforms_vidyut_yang_krut.txt\"}}, {\"data\": {\"source_path\": \"dhatu/dhatuforms_vidyut_yangluk_krut.txt\", \"family\": \"vidyut\", \"category\": \"krdanta\", \"derivation\": \"yangluk\", \"prayoga\": null, \"records\": 1782, \"paradigm_fields\": 39171, \"unparsed_groups\": 408, \"unlinked_identifiers\": [], \"available_keys\": [\"अ\", \"अच्\", \"अनीयर्\", \"क्त\", \"क्तवतु\", \"क्तिन्\", \"क्त्वा\", \"क्वसु\", \"घञ्\", \"चानश्\", \"णमुल्\", \"ण्वुल्\", \"तव्य\", \"तुमुन्\", \"तृच्\", \"भावकर्म-शानच्\", \"ल्यप्\", \"ल्युट्\", \"वरच्\", \"वुन्\", \"शतृ\", \"स्य-भावकर्म-शानच्\", \"स्य-शतृ\"]}, \"provenance\": {\"provider\": \"ashtadhyayi-com\", \"repository\": \"https://github.com/ashtadhyayi-com/data\", \"source_path\": \"dhatu/dhatuforms_vidyut_yangluk_krut.txt\", \"source_identifier\": \"dhatu/dhatuforms_vidyut_yangluk_krut.txt\", \"source_pointer\": \"\", \"upstream_revision\": \"5744762f010d677cfb43f347a42d02796cf615d6\", \"source_sha256\": \"a389fcd89fcf030a4a644192e9a61b1261e267b1a7b389f7779946bd828a113f\", \"retrieved_at\": \"2026-09-28T18:19:17.887693Z\", \"source_url\": \"https://raw.githubusercontent.com/ashtadhyayi-com/data/5744762f010d677cfb43f347a42d02796cf615d6/dhatu/dhatuforms_vidyut_yangluk_krut.txt\"}}, {\"data\": {\"source_path\": \"shabda/data2.txt\", \"family\": \"shabda\", \"category\": \"subanta\", \"derivation\": null, \"prayoga\": null, \"records\": 9007, \"paradigm_fields\": 9007, \"unparsed_groups\": 0, \"unlinked_identifiers\": [], \"available_keys\": [\"forms\"]}, \"provenance\": {\"provider\": \"ashtadhyayi-com\", \"repository\": \"https://github.com/ashtadhyayi-com/data\", \"source_path\": \"shabda/data2.txt\", \"source_identifier\": \"shabda/data2.txt\", \"source_pointer\": \"\", \"upstream_revision\": \"5744762f010d677cfb43f347a42d02796cf615d6\", \"source_sha256\": \"f36b5ce9055dbce1c6f08c006d40ece9a92fd4a1918350190649d7be7b3bf6b7\", \"retrieved_at\": \"2026-09-28T18:19:18.374138Z\", \"source_url\": \"https://raw.githubusercontent.com/ashtadhyayi-com/data/5744762f010d677cfb43f347a42d02796cf615d6/shabda/data2.txt\"}}], \"missing_sources\": [], \"exhaustive\": false, \"limitations\": [\"Coverage is limited to the loaded upstream files, not all possible Sanskrit words.\", \"Vidyut-labelled files contain precomputed outputs, not independently attested forms.\", \"No runtime generation, arbitrary prefix composition, compound derivation, sandhi validation or śloka anvaya is performed.\", \"Empty slots and absent paradigms do not establish grammatical invalidity.\", \"Malformed groups remain retrievable as raw text without inferred grammatical labels.\"]}}"
+        }
+      ],
+      "structured_content": {
+        "status": "ok",
+        "snapshot": {
+          "upstream_revision": "5744762f010d677cfb43f347a42d02796cf615d6",
+          "adapter_version": "0.2.0",
+          "loaded_commentary_sources": [
+            "sutrartha",
+            "sutrartha_english",
+            "kashika"
+          ],
+          "loaded_form_sources": [
+            "dhatu/dhatuforms_krut.txt",
+            "dhatu/dhatuforms_vidyut_shuddha_kartari.txt",
+            "dhatu/dhatuforms_vidyut_shuddha_karmani.txt",
+            "dhatu/dhatuforms_vidyut_nich_kartari.txt",
+            "dhatu/dhatuforms_vidyut_nich_karmani.txt",
+            "dhatu/dhatuforms_vidyut_san_kartari.txt",
+            "dhatu/dhatuforms_vidyut_san_karmani.txt",
+            "dhatu/dhatuforms_vidyut_yang_kartari.txt",
+            "dhatu/dhatuforms_vidyut_yang_karmani.txt",
+            "dhatu/dhatuforms_vidyut_yangluk_kartari.txt",
+            "dhatu/dhatuforms_vidyut_yangluk_karmani.txt",
+            "dhatu/dhatuforms_vidyut_shuddha_krut.txt",
+            "dhatu/dhatuforms_vidyut_nich_krut.txt",
+            "dhatu/dhatuforms_vidyut_san_krut.txt",
+            "dhatu/dhatuforms_vidyut_yang_krut.txt",
+            "dhatu/dhatuforms_vidyut_yangluk_krut.txt",
+            "shabda/data2.txt"
+          ]
+        },
+        "data": {
+          "sources": [
+            {
+              "data": {
+                "source_path": "dhatu/dhatuforms_krut.txt",
+                "family": "upstream",
+                "category": "krdanta",
+                "derivation": null,
+                "prayoga": null,
+                "records": 1983,
+                "paradigm_fields": 22270,
+                "unparsed_groups": 0,
+                "unlinked_identifiers": [],
+                "available_keys": [
+                  "अनीयर्",
+                  "क्त",
+                  "क्तवतुँ",
+                  "क्त्वा",
+                  "ण्वुल्",
+                  "तव्य",
+                  "तुमुन्",
+                  "तृच्",
+                  "ल्यप्",
+                  "ल्युट्",
+                  "शतृ",
+                  "शतृँ",
+                  "शानच्"
+                ]
+              },
+              "provenance": {
+                "provider": "ashtadhyayi-com",
+                "repository": "https://github.com/ashtadhyayi-com/data",
+                "source_path": "dhatu/dhatuforms_krut.txt",
+                "source_identifier": "dhatu/dhatuforms_krut.txt",
+                "source_pointer": "",
+                "upstream_revision": "5744762f010d677cfb43f347a42d02796cf615d6",
+                "source_sha256": "433853341ba4057b4e263777e7442d26946da1513af9140560957ea057a8c6d0",
+                "retrieved_at": "2026-09-28T18:19:09.810295Z",
+                "source_url": "https://raw.githubusercontent.com/ashtadhyayi-com/data/5744762f010d677cfb43f347a42d02796cf615d6/dhatu/dhatuforms_krut.txt"
+              }
+            },
+            {
+              "data": {
+                "source_path": "dhatu/dhatuforms_vidyut_shuddha_kartari.txt",
+                "family": "vidyut",
+                "category": "tinanta",
+                "derivation": "shuddha",
+                "prayoga": "kartari",
+                "records": 2229,
+                "paradigm_fields": 28304,
+                "unparsed_groups": 0,
+                "unlinked_identifiers": [],
+                "available_keys": [
+                  "aashirling",
+                  "alang",
+                  "alat",
+                  "alit",
+                  "alot",
+                  "alrung",
+                  "alrut",
+                  "alung",
+                  "alut",
+                  "avidhiling",
+                  "pashirling",
+                  "plang",
+                  "plat",
+                  "plit",
+                  "plot",
+                  "plrung",
+                  "plrut",
+                  "plung",
+                  "plut",
+                  "pvidhiling"
+                ]
+              },
+              "provenance": {
+                "provider": "ashtadhyayi-com",
+                "repository": "https://github.com/ashtadhyayi-com/data",
+                "source_path": "dhatu/dhatuforms_vidyut_shuddha_kartari.txt",
+                "source_identifier": "dhatu/dhatuforms_vidyut_shuddha_kartari.txt",
+                "source_pointer": "",
+                "upstream_revision": "5744762f010d677cfb43f347a42d02796cf615d6",
+                "source_sha256": "2b58781b2da74e74e970a0f79be84b7140e5efdb2dd28afe7c86725a6281b2c5",
+                "retrieved_at": "2026-09-28T18:19:10.318780Z",
+                "source_url": "https://raw.githubusercontent.com/ashtadhyayi-com/data/5744762f010d677cfb43f347a42d02796cf615d6/dhatu/dhatuforms_vidyut_shuddha_kartari.txt"
+              }
+            },
+            {
+              "data": {
+                "source_path": "dhatu/dhatuforms_vidyut_shuddha_karmani.txt",
+                "family": "vidyut",
+                "category": "tinanta",
+                "derivation": "shuddha",
+                "prayoga": "karmani",
+                "records": 2229,
+                "paradigm_fields": 22290,
+                "unparsed_groups": 0,
+                "unlinked_identifiers": [],
+                "available_keys": [
+                  "aashirling",
+                  "alang",
+                  "alat",
+                  "alit",
+                  "alot",
+                  "alrung",
+                  "alrut",
+                  "alung",
+                  "alut",
+                  "avidhiling"
+                ]
+              },
+              "provenance": {
+                "provider": "ashtadhyayi-com",
+                "repository": "https://github.com/ashtadhyayi-com/data",
+                "source_path": "dhatu/dhatuforms_vidyut_shuddha_karmani.txt",
+                "source_identifier": "dhatu/dhatuforms_vidyut_shuddha_karmani.txt",
+                "source_pointer": "",
+                "upstream_revision": "5744762f010d677cfb43f347a42d02796cf615d6",
+                "source_sha256": "767a3e9f3af359fd093e47282b5ff28ac84d13bc549087fe7b2661032b8564aa",
+                "retrieved_at": "2026-09-28T18:19:10.788290Z",
+                "source_url": "https://raw.githubusercontent.com/ashtadhyayi-com/data/5744762f010d677cfb43f347a42d02796cf615d6/dhatu/dhatuforms_vidyut_shuddha_karmani.txt"
+              }
+            },
+            {
+              "data": {
+                "source_path": "dhatu/dhatuforms_vidyut_nich_kartari.txt",
+                "family": "vidyut",
+                "category": "tinanta",
+                "derivation": "nich",
+                "prayoga": "kartari",
+                "records": 2229,
+                "paradigm_fields": 44500,
+                "unparsed_groups": 0,
+                "unlinked_identifiers": [],
+                "available_keys": [
+                  "aashirling",
+                  "alang",
+                  "alat",
+                  "alit",
+                  "alot",
+                  "alrung",
+                  "alrut",
+                  "alung",
+                  "alut",
+                  "avidhiling",
+                  "pashirling",
+                  "plang",
+                  "plat",
+                  "plit",
+                  "plot",
+                  "plrung",
+                  "plrut",
+                  "plung",
+                  "plut",
+                  "pvidhiling"
+                ]
+              },
+              "provenance": {
+                "provider": "ashtadhyayi-com",
+                "repository": "https://github.com/ashtadhyayi-com/data",
+                "source_path": "dhatu/dhatuforms_vidyut_nich_kartari.txt",
+                "source_identifier": "dhatu/dhatuforms_vidyut_nich_kartari.txt",
+                "source_pointer": "",
+                "upstream_revision": "5744762f010d677cfb43f347a42d02796cf615d6",
+                "source_sha256": "7135d8cbaaffe48855ea8cda1907825174c8e90502371d13326b91564f69c93f",
+                "retrieved_at": "2026-09-28T18:19:11.537080Z",
+                "source_url": "https://raw.githubusercontent.com/ashtadhyayi-com/data/5744762f010d677cfb43f347a42d02796cf615d6/dhatu/dhatuforms_vidyut_nich_kartari.txt"
+              }
+            },
+            {
+              "data": {
+                "source_path": "dhatu/dhatuforms_vidyut_nich_karmani.txt",
+                "family": "vidyut",
+                "category": "tinanta",
+                "derivation": "nich",
+                "prayoga": "karmani",
+                "records": 2229,
+                "paradigm_fields": 22290,
+                "unparsed_groups": 0,
+                "unlinked_identifiers": [],
+                "available_keys": [
+                  "aashirling",
+                  "alang",
+                  "alat",
+                  "alit",
+                  "alot",
+                  "alrung",
+                  "alrut",
+                  "alung",
+                  "alut",
+                  "avidhiling"
+                ]
+              },
+              "provenance": {
+                "provider": "ashtadhyayi-com",
+                "repository": "https://github.com/ashtadhyayi-com/data",
+                "source_path": "dhatu/dhatuforms_vidyut_nich_karmani.txt",
+                "source_identifier": "dhatu/dhatuforms_vidyut_nich_karmani.txt",
+                "source_pointer": "",
+                "upstream_revision": "5744762f010d677cfb43f347a42d02796cf615d6",
+                "source_sha256": "c7a6325692716f180f0e043ecaae73071cae3bd42a5fa36525c4f819c5136c45",
+                "retrieved_at": "2026-09-28T18:19:12.387457Z",
+                "source_url": "https://raw.githubusercontent.com/ashtadhyayi-com/data/5744762f010d677cfb43f347a42d02796cf615d6/dhatu/dhatuforms_vidyut_nich_karmani.txt"
+              }
+            },
+            {
+              "data": {
+                "source_path": "dhatu/dhatuforms_vidyut_san_kartari.txt",
+                "family": "vidyut",
+                "category": "tinanta",
+                "derivation": "san",
+                "prayoga": "kartari",
+                "records": 2229,
+                "paradigm_fields": 28782,
+                "unparsed_groups": 0,
+                "unlinked_identifiers": [],
+                "available_keys": [
+                  "aashirling",
+                  "alang",
+                  "alat",
+                  "alit",
+                  "alot",
+                  "alrung",
+                  "alrut",
+                  "alung",
+                  "alut",
+                  "avidhiling",
+                  "pashirling",
+                  "plang",
+                  "plat",
+                  "plit",
+                  "plot",
+                  "plrung",
+                  "plrut",
+                  "plung",
+                  "plut",
+                  "pvidhiling"
+                ]
+              },
+              "provenance": {
+                "provider": "ashtadhyayi-com",
+                "repository": "https://github.com/ashtadhyayi-com/data",
+                "source_path": "dhatu/dhatuforms_vidyut_san_kartari.txt",
+                "source_identifier": "dhatu/dhatuforms_vidyut_san_kartari.txt",
+                "source_pointer": "",
+                "upstream_revision": "5744762f010d677cfb43f347a42d02796cf615d6",
+                "source_sha256": "924684d3b4556c7ce40ab308beb060a775c34b89c5045818bcb769ce13bffb35",
+                "retrieved_at": "2026-09-28T18:19:13.029335Z",
+                "source_url": "https://raw.githubusercontent.com/ashtadhyayi-com/data/5744762f010d677cfb43f347a42d02796cf615d6/dhatu/dhatuforms_vidyut_san_kartari.txt"
+              }
+            },
+            {
+              "data": {
+                "source_path": "dhatu/dhatuforms_vidyut_san_karmani.txt",
+                "family": "vidyut",
+                "category": "tinanta",
+                "derivation": "san",
+                "prayoga": "karmani",
+                "records": 2229,
+                "paradigm_fields": 22290,
+                "unparsed_groups": 0,
+                "unlinked_identifiers": [],
+                "available_keys": [
+                  "aashirling",
+                  "alang",
+                  "alat",
+                  "alit",
+                  "alot",
+                  "alrung",
+                  "alrut",
+                  "alung",
+                  "alut",
+                  "avidhiling"
+                ]
+              },
+              "provenance": {
+                "provider": "ashtadhyayi-com",
+                "repository": "https://github.com/ashtadhyayi-com/data",
+                "source_path": "dhatu/dhatuforms_vidyut_san_karmani.txt",
+                "source_identifier": "dhatu/dhatuforms_vidyut_san_karmani.txt",
+                "source_pointer": "",
+                "upstream_revision": "5744762f010d677cfb43f347a42d02796cf615d6",
+                "source_sha256": "57ca45c30150f41ce33164caebd0e36686f83100a175df60991fab2c2b90dce0",
+                "retrieved_at": "2026-09-28T18:19:13.640174Z",
+                "source_url": "https://raw.githubusercontent.com/ashtadhyayi-com/data/5744762f010d677cfb43f347a42d02796cf615d6/dhatu/dhatuforms_vidyut_san_karmani.txt"
+              }
+            },
+            {
+              "data": {
+                "source_path": "dhatu/dhatuforms_vidyut_yang_kartari.txt",
+                "family": "vidyut",
+                "category": "tinanta",
+                "derivation": "yang",
+                "prayoga": "kartari",
+                "records": 1782,
+                "paradigm_fields": 17792,
+                "unparsed_groups": 0,
+                "unlinked_identifiers": [],
+                "available_keys": [
+                  "aashirling",
+                  "alang",
+                  "alat",
+                  "alit",
+                  "alot",
+                  "alrung",
+                  "alrut",
+                  "alung",
+                  "alut",
+                  "avidhiling"
+                ]
+              },
+              "provenance": {
+                "provider": "ashtadhyayi-com",
+                "repository": "https://github.com/ashtadhyayi-com/data",
+                "source_path": "dhatu/dhatuforms_vidyut_yang_kartari.txt",
+                "source_identifier": "dhatu/dhatuforms_vidyut_yang_kartari.txt",
+                "source_pointer": "",
+                "upstream_revision": "5744762f010d677cfb43f347a42d02796cf615d6",
+                "source_sha256": "a07384d4365f98816940a9d37068318ee72fc3504a5869d2fcdaf0457a2271d8",
+                "retrieved_at": "2026-09-28T18:19:14.119825Z",
+                "source_url": "https://raw.githubusercontent.com/ashtadhyayi-com/data/5744762f010d677cfb43f347a42d02796cf615d6/dhatu/dhatuforms_vidyut_yang_kartari.txt"
+              }
+            },
+            {
+              "data": {
+                "source_path": "dhatu/dhatuforms_vidyut_yang_karmani.txt",
+                "family": "vidyut",
+                "category": "tinanta",
+                "derivation": "yang",
+                "prayoga": "karmani",
+                "records": 1782,
+                "paradigm_fields": 17820,
+                "unparsed_groups": 0,
+                "unlinked_identifiers": [],
+                "available_keys": [
+                  "aashirling",
+                  "alang",
+                  "alat",
+                  "alit",
+                  "alot",
+                  "alrung",
+                  "alrut",
+                  "alung",
+                  "alut",
+                  "avidhiling"
+                ]
+              },
+              "provenance": {
+                "provider": "ashtadhyayi-com",
+                "repository": "https://github.com/ashtadhyayi-com/data",
+                "source_path": "dhatu/dhatuforms_vidyut_yang_karmani.txt",
+                "source_identifier": "dhatu/dhatuforms_vidyut_yang_karmani.txt",
+                "source_pointer": "",
+                "upstream_revision": "5744762f010d677cfb43f347a42d02796cf615d6",
+                "source_sha256": "13b7618d283b260391804113ef5c658f357852ff02e7e96ec1cb889cb2e1b89c",
+                "retrieved_at": "2026-09-28T18:19:14.581514Z",
+                "source_url": "https://raw.githubusercontent.com/ashtadhyayi-com/data/5744762f010d677cfb43f347a42d02796cf615d6/dhatu/dhatuforms_vidyut_yang_karmani.txt"
+              }
+            },
+            {
+              "data": {
+                "source_path": "dhatu/dhatuforms_vidyut_yangluk_kartari.txt",
+                "family": "vidyut",
+                "category": "tinanta",
+                "derivation": "yangluk",
+                "prayoga": "kartari",
+                "records": 1782,
+                "paradigm_fields": 17792,
+                "unparsed_groups": 0,
+                "unlinked_identifiers": [],
+                "available_keys": [
+                  "pashirling",
+                  "plang",
+                  "plat",
+                  "plit",
+                  "plot",
+                  "plrung",
+                  "plrut",
+                  "plung",
+                  "plut",
+                  "pvidhiling"
+                ]
+              },
+              "provenance": {
+                "provider": "ashtadhyayi-com",
+                "repository": "https://github.com/ashtadhyayi-com/data",
+                "source_path": "dhatu/dhatuforms_vidyut_yangluk_kartari.txt",
+                "source_identifier": "dhatu/dhatuforms_vidyut_yangluk_kartari.txt",
+                "source_pointer": "",
+                "upstream_revision": "5744762f010d677cfb43f347a42d02796cf615d6",
+                "source_sha256": "d1de5b57fc7b6a1696dda815be58428fc6b12f9ca29e1877861ec0458e39b1d4",
+                "retrieved_at": "2026-09-28T18:19:15.282149Z",
+                "source_url": "https://raw.githubusercontent.com/ashtadhyayi-com/data/5744762f010d677cfb43f347a42d02796cf615d6/dhatu/dhatuforms_vidyut_yangluk_kartari.txt"
+              }
+            },
+            {
+              "data": {
+                "source_path": "dhatu/dhatuforms_vidyut_yangluk_karmani.txt",
+                "family": "vidyut",
+                "category": "tinanta",
+                "derivation": "yangluk",
+                "prayoga": "karmani",
+                "records": 1782,
+                "paradigm_fields": 17820,
+                "unparsed_groups": 0,
+                "unlinked_identifiers": [],
+                "available_keys": [
+                  "aashirling",
+                  "alang",
+                  "alat",
+                  "alit",
+                  "alot",
+                  "alrung",
+                  "alrut",
+                  "alung",
+                  "alut",
+                  "avidhiling"
+                ]
+              },
+              "provenance": {
+                "provider": "ashtadhyayi-com",
+                "repository": "https://github.com/ashtadhyayi-com/data",
+                "source_path": "dhatu/dhatuforms_vidyut_yangluk_karmani.txt",
+                "source_identifier": "dhatu/dhatuforms_vidyut_yangluk_karmani.txt",
+                "source_pointer": "",
+                "upstream_revision": "5744762f010d677cfb43f347a42d02796cf615d6",
+                "source_sha256": "ba6532dabf29168917997ff67ac0401134d883fe2815ea916392de930938fa60",
+                "retrieved_at": "2026-09-28T18:19:15.771029Z",
+                "source_url": "https://raw.githubusercontent.com/ashtadhyayi-com/data/5744762f010d677cfb43f347a42d02796cf615d6/dhatu/dhatuforms_vidyut_yangluk_karmani.txt"
+              }
+            },
+            {
+              "data": {
+                "source_path": "dhatu/dhatuforms_vidyut_shuddha_krut.txt",
+                "family": "vidyut",
+                "category": "krdanta",
+                "derivation": "shuddha",
+                "prayoga": null,
+                "records": 2229,
+                "paradigm_fields": 50705,
+                "unparsed_groups": 0,
+                "unlinked_identifiers": [],
+                "available_keys": [
+                  "अ",
+                  "अङ्",
+                  "अच्",
+                  "अतृन्",
+                  "अथुच्",
+                  "अनीयर्",
+                  "अप्",
+                  "आरु",
+                  "आलुच्",
+                  "इत्र",
+                  "उ",
+                  "उकञ्",
+                  "कुरच्",
+                  "क्त",
+                  "क्तवतु",
+                  "क्तिन्",
+                  "क्त्रि",
+                  "क्त्वा",
+                  "क्नु",
+                  "क्मरच्",
+                  "क्यप्",
+                  "क्रु",
+                  "क्रुकन्",
+                  "क्लुकन्",
+                  "क्वरप्",
+                  "क्वसु",
+                  "ग्स्नु",
+                  "घञ्",
+                  "घिनुण्",
+                  "घुरच्",
+                  "ङ्वनिप्",
+                  "चानश्",
+                  "ण",
+                  "णमुल्",
+                  "ण्यत्",
+                  "ण्युट्",
+                  "ण्वुल्",
+                  "तव्य",
+                  "तुमुन्",
+                  "तृच्",
+                  "थकन्",
+                  "नङ्",
+                  "नजिङ्",
+                  "नन्",
+                  "भावकर्म-शानच्",
+                  "यत्",
+                  "र",
+                  "ल्यप्",
+                  "ल्यु",
+                  "ल्युट्",
+                  "वरच्",
+                  "वुञ्",
+                  "वुन्",
+                  "श",
+                  "शतृ",
+                  "शानच्",
+                  "शानन्",
+                  "षाकन्",
+                  "ष्ट्रन्",
+                  "ष्वुन्",
+                  "स्य-भावकर्म-शानच्",
+                  "स्य-शतृ",
+                  "स्य-शानच्"
+                ]
+              },
+              "provenance": {
+                "provider": "ashtadhyayi-com",
+                "repository": "https://github.com/ashtadhyayi-com/data",
+                "source_path": "dhatu/dhatuforms_vidyut_shuddha_krut.txt",
+                "source_identifier": "dhatu/dhatuforms_vidyut_shuddha_krut.txt",
+                "source_pointer": "",
+                "upstream_revision": "5744762f010d677cfb43f347a42d02796cf615d6",
+                "source_sha256": "e38175442ead2303d2016e2e037d4aa88965449fa1e395685f922aee115fac02",
+                "retrieved_at": "2026-09-28T18:19:16.086453Z",
+                "source_url": "https://raw.githubusercontent.com/ashtadhyayi-com/data/5744762f010d677cfb43f347a42d02796cf615d6/dhatu/dhatuforms_vidyut_shuddha_krut.txt"
+              }
+            },
+            {
+              "data": {
+                "source_path": "dhatu/dhatuforms_vidyut_nich_krut.txt",
+                "family": "vidyut",
+                "category": "krdanta",
+                "derivation": "nich",
+                "prayoga": null,
+                "records": 2229,
+                "paradigm_fields": 51160,
+                "unparsed_groups": 0,
+                "unlinked_identifiers": [],
+                "available_keys": [
+                  "अच्",
+                  "अनीयर्",
+                  "आलुच्",
+                  "क्त",
+                  "क्तवतु",
+                  "क्तिन्",
+                  "क्त्वा",
+                  "क्वसु",
+                  "चानश्",
+                  "णमुल्",
+                  "ण्वुल्",
+                  "तव्य",
+                  "तुमुन्",
+                  "तृच्",
+                  "भावकर्म-शानच्",
+                  "यत्",
+                  "ल्यप्",
+                  "ल्युट्",
+                  "वुन्",
+                  "श",
+                  "शतृ",
+                  "शानच्",
+                  "स्य-भावकर्म-शानच्",
+                  "स्य-शतृ",
+                  "स्य-शानच्"
+                ]
+              },
+              "provenance": {
+                "provider": "ashtadhyayi-com",
+                "repository": "https://github.com/ashtadhyayi-com/data",
+                "source_path": "dhatu/dhatuforms_vidyut_nich_krut.txt",
+                "source_identifier": "dhatu/dhatuforms_vidyut_nich_krut.txt",
+                "source_pointer": "",
+                "upstream_revision": "5744762f010d677cfb43f347a42d02796cf615d6",
+                "source_sha256": "14cbb9dbba9ed7a00716f6b2397b859a50ed957d5bb6f061e5ec3a785ef73365",
+                "retrieved_at": "2026-09-28T18:19:16.544739Z",
+                "source_url": "https://raw.githubusercontent.com/ashtadhyayi-com/data/5744762f010d677cfb43f347a42d02796cf615d6/dhatu/dhatuforms_vidyut_nich_krut.txt"
+              }
+            },
+            {
+              "data": {
+                "source_path": "dhatu/dhatuforms_vidyut_san_krut.txt",
+                "family": "vidyut",
+                "category": "krdanta",
+                "derivation": "san",
+                "prayoga": null,
+                "records": 2229,
+                "paradigm_fields": 54682,
+                "unparsed_groups": 0,
+                "unlinked_identifiers": [],
+                "available_keys": [
+                  "अ",
+                  "अच्",
+                  "अनीयर्",
+                  "उ",
+                  "क्त",
+                  "क्तवतु",
+                  "क्तिन्",
+                  "क्त्वा",
+                  "क्वसु",
+                  "घञ्",
+                  "चानश्",
+                  "णमुल्",
+                  "ण्वुल्",
+                  "तव्य",
+                  "तुमुन्",
+                  "तृच्",
+                  "भावकर्म-शानच्",
+                  "यत्",
+                  "ल्यप्",
+                  "ल्युट्",
+                  "वुन्",
+                  "शतृ",
+                  "शानच्",
+                  "स्य-भावकर्म-शानच्",
+                  "स्य-शतृ",
+                  "स्य-शानच्"
+                ]
+              },
+              "provenance": {
+                "provider": "ashtadhyayi-com",
+                "repository": "https://github.com/ashtadhyayi-com/data",
+                "source_path": "dhatu/dhatuforms_vidyut_san_krut.txt",
+                "source_identifier": "dhatu/dhatuforms_vidyut_san_krut.txt",
+                "source_pointer": "",
+                "upstream_revision": "5744762f010d677cfb43f347a42d02796cf615d6",
+                "source_sha256": "ddf8ad9662e4c1ed848ae19b8d6ea1a6e94000d09041f9a4f4b3c6590a917cf5",
+                "retrieved_at": "2026-09-28T18:19:17.092761Z",
+                "source_url": "https://raw.githubusercontent.com/ashtadhyayi-com/data/5744762f010d677cfb43f347a42d02796cf615d6/dhatu/dhatuforms_vidyut_san_krut.txt"
+              }
+            },
+            {
+              "data": {
+                "source_path": "dhatu/dhatuforms_vidyut_yang_krut.txt",
+                "family": "vidyut",
+                "category": "krdanta",
+                "derivation": "yang",
+                "prayoga": null,
+                "records": 1782,
+                "paradigm_fields": 40953,
+                "unparsed_groups": 0,
+                "unlinked_identifiers": [],
+                "available_keys": [
+                  "अ",
+                  "अच्",
+                  "अनीयर्",
+                  "क्त",
+                  "क्तवतु",
+                  "क्तिन्",
+                  "क्त्वा",
+                  "क्वसु",
+                  "घञ्",
+                  "चानश्",
+                  "णमुल्",
+                  "ण्वुल्",
+                  "तव्य",
+                  "तुमुन्",
+                  "तृच्",
+                  "भावकर्म-शानच्",
+                  "यत्",
+                  "ल्यप्",
+                  "ल्युट्",
+                  "वरच्",
+                  "वुन्",
+                  "शानच्",
+                  "स्य-भावकर्म-शानच्",
+                  "स्य-शानच्"
+                ]
+              },
+              "provenance": {
+                "provider": "ashtadhyayi-com",
+                "repository": "https://github.com/ashtadhyayi-com/data",
+                "source_path": "dhatu/dhatuforms_vidyut_yang_krut.txt",
+                "source_identifier": "dhatu/dhatuforms_vidyut_yang_krut.txt",
+                "source_pointer": "",
+                "upstream_revision": "5744762f010d677cfb43f347a42d02796cf615d6",
+                "source_sha256": "b2f481536dc670662bb6cced2b5ed358b447670fbb1e90cd701773c8845cb69a",
+                "retrieved_at": "2026-09-28T18:19:17.499322Z",
+                "source_url": "https://raw.githubusercontent.com/ashtadhyayi-com/data/5744762f010d677cfb43f347a42d02796cf615d6/dhatu/dhatuforms_vidyut_yang_krut.txt"
+              }
+            },
+            {
+              "data": {
+                "source_path": "dhatu/dhatuforms_vidyut_yangluk_krut.txt",
+                "family": "vidyut",
+                "category": "krdanta",
+                "derivation": "yangluk",
+                "prayoga": null,
+                "records": 1782,
+                "paradigm_fields": 39171,
+                "unparsed_groups": 408,
+                "unlinked_identifiers": [],
+                "available_keys": [
+                  "अ",
+                  "अच्",
+                  "अनीयर्",
+                  "क्त",
+                  "क्तवतु",
+                  "क्तिन्",
+                  "क्त्वा",
+                  "क्वसु",
+                  "घञ्",
+                  "चानश्",
+                  "णमुल्",
+                  "ण्वुल्",
+                  "तव्य",
+                  "तुमुन्",
+                  "तृच्",
+                  "भावकर्म-शानच्",
+                  "ल्यप्",
+                  "ल्युट्",
+                  "वरच्",
+                  "वुन्",
+                  "शतृ",
+                  "स्य-भावकर्म-शानच्",
+                  "स्य-शतृ"
+                ]
+              },
+              "provenance": {
+                "provider": "ashtadhyayi-com",
+                "repository": "https://github.com/ashtadhyayi-com/data",
+                "source_path": "dhatu/dhatuforms_vidyut_yangluk_krut.txt",
+                "source_identifier": "dhatu/dhatuforms_vidyut_yangluk_krut.txt",
+                "source_pointer": "",
+                "upstream_revision": "5744762f010d677cfb43f347a42d02796cf615d6",
+                "source_sha256": "a389fcd89fcf030a4a644192e9a61b1261e267b1a7b389f7779946bd828a113f",
+                "retrieved_at": "2026-09-28T18:19:17.887693Z",
+                "source_url": "https://raw.githubusercontent.com/ashtadhyayi-com/data/5744762f010d677cfb43f347a42d02796cf615d6/dhatu/dhatuforms_vidyut_yangluk_krut.txt"
+              }
+            },
+            {
+              "data": {
+                "source_path": "shabda/data2.txt",
+                "family": "shabda",
+                "category": "subanta",
+                "derivation": null,
+                "prayoga": null,
+                "records": 9007,
+                "paradigm_fields": 9007,
+                "unparsed_groups": 0,
+                "unlinked_identifiers": [],
+                "available_keys": [
+                  "forms"
+                ]
+              },
+              "provenance": {
+                "provider": "ashtadhyayi-com",
+                "repository": "https://github.com/ashtadhyayi-com/data",
+                "source_path": "shabda/data2.txt",
+                "source_identifier": "shabda/data2.txt",
+                "source_pointer": "",
+                "upstream_revision": "5744762f010d677cfb43f347a42d02796cf615d6",
+                "source_sha256": "f36b5ce9055dbce1c6f08c006d40ece9a92fd4a1918350190649d7be7b3bf6b7",
+                "retrieved_at": "2026-09-28T18:19:18.374138Z",
+                "source_url": "https://raw.githubusercontent.com/ashtadhyayi-com/data/5744762f010d677cfb43f347a42d02796cf615d6/shabda/data2.txt"
+              }
+            }
+          ],
+          "missing_sources": [],
+          "exhaustive": false,
+          "limitations": [
+            "Coverage is limited to the loaded upstream files, not all possible Sanskrit words.",
+            "Vidyut-labelled files contain precomputed outputs, not independently attested forms.",
+            "No runtime generation, arbitrary prefix composition, compound derivation, sandhi validation or śloka anvaya is performed.",
+            "Empty slots and absent paradigms do not establish grammatical invalidity.",
+            "Malformed groups remain retrievable as raw text without inferred grammatical labels."
+          ]
+        }
+      }
+    },
+    "error": null,
+    "status": "completed"
+  },
+  {
+    "id": "item_2",
+    "type": "mcp_tool_call",
+    "server": "ashtadhyayi",
+    "tool": "get_dhatu_forms",
+    "arguments": {
+      "by": "baseindex",
+      "query": "01.0001",
+      "category": "tinanta",
+      "derivation": "shuddha",
+      "prayoga": "kartari",
+      "lakara": "lat",
+      "pada": "P",
+      "limit": 100
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"status\": \"error\", \"error\": {\"code\": \"INVALID_INPUT\", \"message\": \"Arguments do not match the tool schema\", \"details\": {\"fields\": [\"limit\"]}}}"
+        }
+      ],
+      "structured_content": {
+        "status": "error",
+        "error": {
+          "code": "INVALID_INPUT",
+          "message": "Arguments do not match the tool schema",
+          "details": {
+            "fields": [
+              "limit"
+            ]
+          }
+        }
+      }
+    },
+    "error": null,
+    "status": "failed"
+  },
+  {
+    "id": "item_3",
+    "type": "mcp_tool_call",
+    "server": "ashtadhyayi",
+    "tool": "get_shabda_forms",
+    "arguments": {
+      "by": "upstream_id",
+      "query": "@rAma1",
+      "linga": "P",
+      "vibhakti": 5,
+      "vacana": 1,
+      "limit": 100
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"status\": \"error\", \"error\": {\"code\": \"INVALID_INPUT\", \"message\": \"Arguments do not match the tool schema\", \"details\": {\"fields\": [\"limit\"]}}}"
+        }
+      ],
+      "structured_content": {
+        "status": "error",
+        "error": {
+          "code": "INVALID_INPUT",
+          "message": "Arguments do not match the tool schema",
+          "details": {
+            "fields": [
+              "limit"
+            ]
+          }
+        }
+      }
+    },
+    "error": null,
+    "status": "failed"
+  },
+  {
+    "id": "item_4",
+    "type": "mcp_tool_call",
+    "server": "ashtadhyayi",
+    "tool": "lookup_form",
+    "arguments": {
+      "query": "रामौ",
+      "include_vocative_alias": true,
+      "limit": 100
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"status\": \"error\", \"error\": {\"code\": \"INVALID_INPUT\", \"message\": \"Arguments do not match the tool schema\", \"details\": {\"fields\": [\"limit\"]}}}"
+        }
+      ],
+      "structured_content": {
+        "status": "error",
+        "error": {
+          "code": "INVALID_INPUT",
+          "message": "Arguments do not match the tool schema",
+          "details": {
+            "fields": [
+              "limit"
+            ]
+          }
+        }
+      }
+    },
+    "error": null,
+    "status": "failed"
+  },
+  {
+    "id": "item_5",
+    "type": "mcp_tool_call",
+    "server": "ashtadhyayi",
+    "tool": "lookup_form",
+    "arguments": {
+      "query": "भवति",
+      "include_vocative_alias": true,
+      "limit": 100
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"status\": \"error\", \"error\": {\"code\": \"INVALID_INPUT\", \"message\": \"Arguments do not match the tool schema\", \"details\": {\"fields\": [\"limit\"]}}}"
+        }
+      ],
+      "structured_content": {
+        "status": "error",
+        "error": {
+          "code": "INVALID_INPUT",
+          "message": "Arguments do not match the tool schema",
+          "details": {
+            "fields": [
+              "limit"
+            ]
+          }
+        }
+      }
+    },
+    "error": null,
+    "status": "failed"
+  },
+  {
+    "id": "item_6",
+    "type": "mcp_tool_call",
+    "server": "ashtadhyayi",
+    "tool": "lookup_form",
+    "arguments": {
+      "query": "__absent_test_form__",
+      "limit": 100
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"status\": \"error\", \"error\": {\"code\": \"INVALID_INPUT\", \"message\": \"Arguments do not match the tool schema\", \"details\": {\"fields\": [\"limit\"]}}}"
+        }
+      ],
+      "structured_content": {
+        "status": "error",
+        "error": {
+          "code": "INVALID_INPUT",
+          "message": "Arguments do not match the tool schema",
+          "details": {
+            "fields": [
+              "limit"
+            ]
+          }
+        }
+      }
+    },
+    "error": null,
+    "status": "failed"
+  },
+  {
+    "id": "item_7",
+    "type": "mcp_tool_call",
+    "server": "ashtadhyayi",
+    "tool": "get_sutra",
+    "arguments": {
+      "number": "6.1.77",
+      "commentaries": []
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"status\": \"ok\", \"snapshot\": {\"upstream_revision\": \"5744762f010d677cfb43f347a42d02796cf615d6\", \"adapter_version\": \"0.2.0\", \"loaded_commentary_sources\": [\"sutrartha\", \"sutrartha_english\", \"kashika\"], \"loaded_form_sources\": [\"dhatu/dhatuforms_krut.txt\", \"dhatu/dhatuforms_vidyut_shuddha_kartari.txt\", \"dhatu/dhatuforms_vidyut_shuddha_karmani.txt\", \"dhatu/dhatuforms_vidyut_nich_kartari.txt\", \"dhatu/dhatuforms_vidyut_nich_karmani.txt\", \"dhatu/dhatuforms_vidyut_san_kartari.txt\", \"dhatu/dhatuforms_vidyut_san_karmani.txt\", \"dhatu/dhatuforms_vidyut_yang_kartari.txt\", \"dhatu/dhatuforms_vidyut_yang_karmani.txt\", \"dhatu/dhatuforms_vidyut_yangluk_kartari.txt\", \"dhatu/dhatuforms_vidyut_yangluk_karmani.txt\", \"dhatu/dhatuforms_vidyut_shuddha_krut.txt\", \"dhatu/dhatuforms_vidyut_nich_krut.txt\", \"dhatu/dhatuforms_vidyut_san_krut.txt\", \"dhatu/dhatuforms_vidyut_yang_krut.txt\", \"dhatu/dhatuforms_vidyut_yangluk_krut.txt\", \"shabda/data2.txt\"]}, \"data\": {\"sutra\": {\"data\": {\"number\": \"6.1.77\", \"upstream_id\": \"61077\", \"text\": \"इको यणचि\", \"upstream_record\": {\"i\": \"61077\", \"a\": \"6\", \"p\": \"1\", \"n\": \"77\", \"s\": \"इको यणचि\", \"e\": \"ikoyanachi\", \"skn\": \"47\", \"lskn\": \"15\", \"mskn\": \"15\", \"sskn\": \"16\", \"plskn\": \"17\", \"lpn\": \"43\", \"pc\": \"इकः$S$6$1$##यण्$S$1$1$##अचि$S$7$1$\", \"sk_chapter\": \"3\", \"lsk_chapter\": \"2\", \"type\": \"V$$\", \"an\": \"\", \"ad\": \"संहितायाम्$6$1$72\", \"ss\": \"इकः यण् अचि संहितायाम् \", \"rpn\": \"844\", \"psn\": \"107\", \"ps_chapter\": \"3\"}}, \"provenance\": {\"provider\": \"ashtadhyayi-com\", \"repository\": \"https://github.com/ashtadhyayi-com/data\", \"source_path\": \"sutraani/data.txt\", \"source_identifier\": \"61077\", \"source_pointer\": \"/data/2516\", \"upstream_revision\": \"5744762f010d677cfb43f347a42d02796cf615d6\", \"source_sha256\": \"6a22591f418cd924ba4bd621944de2359cc06721b5ada79ef08d70f17a07bcc6\", \"retrieved_at\": \"2026-09-28T18:19:08.373176Z\", \"source_url\": \"https://raw.githubusercontent.com/ashtadhyayi-com/data/5744762f010d677cfb43f347a42d02796cf615d6/sutraani/data.txt\"}}, \"commentaries\": [], \"coverage\": []}}"
+        }
+      ],
+      "structured_content": {
+        "status": "ok",
+        "snapshot": {
+          "upstream_revision": "5744762f010d677cfb43f347a42d02796cf615d6",
+          "adapter_version": "0.2.0",
+          "loaded_commentary_sources": [
+            "sutrartha",
+            "sutrartha_english",
+            "kashika"
+          ],
+          "loaded_form_sources": [
+            "dhatu/dhatuforms_krut.txt",
+            "dhatu/dhatuforms_vidyut_shuddha_kartari.txt",
+            "dhatu/dhatuforms_vidyut_shuddha_karmani.txt",
+            "dhatu/dhatuforms_vidyut_nich_kartari.txt",
+            "dhatu/dhatuforms_vidyut_nich_karmani.txt",
+            "dhatu/dhatuforms_vidyut_san_kartari.txt",
+            "dhatu/dhatuforms_vidyut_san_karmani.txt",
+            "dhatu/dhatuforms_vidyut_yang_kartari.txt",
+            "dhatu/dhatuforms_vidyut_yang_karmani.txt",
+            "dhatu/dhatuforms_vidyut_yangluk_kartari.txt",
+            "dhatu/dhatuforms_vidyut_yangluk_karmani.txt",
+            "dhatu/dhatuforms_vidyut_shuddha_krut.txt",
+            "dhatu/dhatuforms_vidyut_nich_krut.txt",
+            "dhatu/dhatuforms_vidyut_san_krut.txt",
+            "dhatu/dhatuforms_vidyut_yang_krut.txt",
+            "dhatu/dhatuforms_vidyut_yangluk_krut.txt",
+            "shabda/data2.txt"
+          ]
+        },
+        "data": {
+          "sutra": {
+            "data": {
+              "number": "6.1.77",
+              "upstream_id": "61077",
+              "text": "इको यणचि",
+              "upstream_record": {
+                "i": "61077",
+                "a": "6",
+                "p": "1",
+                "n": "77",
+                "s": "इको यणचि",
+                "e": "ikoyanachi",
+                "skn": "47",
+                "lskn": "15",
+                "mskn": "15",
+                "sskn": "16",
+                "plskn": "17",
+                "lpn": "43",
+                "pc": "इकः$S$6$1$##यण्$S$1$1$##अचि$S$7$1$",
+                "sk_chapter": "3",
+                "lsk_chapter": "2",
+                "type": "V$$",
+                "an": "",
+                "ad": "संहितायाम्$6$1$72",
+                "ss": "इकः यण् अचि संहितायाम् ",
+                "rpn": "844",
+                "psn": "107",
+                "ps_chapter": "3"
+              }
+            },
+            "provenance": {
+              "provider": "ashtadhyayi-com",
+              "repository": "https://github.com/ashtadhyayi-com/data",
+              "source_path": "sutraani/data.txt",
+              "source_identifier": "61077",
+              "source_pointer": "/data/2516",
+              "upstream_revision": "5744762f010d677cfb43f347a42d02796cf615d6",
+              "source_sha256": "6a22591f418cd924ba4bd621944de2359cc06721b5ada79ef08d70f17a07bcc6",
+              "retrieved_at": "2026-09-28T18:19:08.373176Z",
+              "source_url": "https://raw.githubusercontent.com/ashtadhyayi-com/data/5744762f010d677cfb43f347a42d02796cf615d6/sutraani/data.txt"
+            }
+          },
+          "commentaries": [],
+          "coverage": []
+        }
+      }
+    },
+    "error": null,
+    "status": "completed"
+  },
+  {
+    "id": "item_8",
+    "type": "mcp_tool_call",
+    "server": "ashtadhyayi",
+    "tool": "get_shabda_forms",
+    "arguments": {
+      "by": "upstream_id",
+      "query": "@rAma1",
+      "linga": "P",
+      "vibhakti": 5,
+      "vacana": 1
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"status\": \"ok\", \"snapshot\": {\"upstream_revision\": \"5744762f010d677cfb43f347a42d02796cf615d6\", \"adapter_version\": \"0.2.0\", \"loaded_commentary_sources\": [\"sutrartha\", \"sutrartha_english\", \"kashika\"], \"loaded_form_sources\": [\"dhatu/dhatuforms_krut.txt\", \"dhatu/dhatuforms_vidyut_shuddha_kartari.txt\", \"dhatu/dhatuforms_vidyut_shuddha_karmani.txt\", \"dhatu/dhatuforms_vidyut_nich_kartari.txt\", \"dhatu/dhatuforms_vidyut_nich_karmani.txt\", \"dhatu/dhatuforms_vidyut_san_kartari.txt\", \"dhatu/dhatuforms_vidyut_san_karmani.txt\", \"dhatu/dhatuforms_vidyut_yang_kartari.txt\", \"dhatu/dhatuforms_vidyut_yang_karmani.txt\", \"dhatu/dhatuforms_vidyut_yangluk_kartari.txt\", \"dhatu/dhatuforms_vidyut_yangluk_karmani.txt\", \"dhatu/dhatuforms_vidyut_shuddha_krut.txt\", \"dhatu/dhatuforms_vidyut_nich_krut.txt\", \"dhatu/dhatuforms_vidyut_san_krut.txt\", \"dhatu/dhatuforms_vidyut_yang_krut.txt\", \"dhatu/dhatuforms_vidyut_yangluk_krut.txt\", \"shabda/data2.txt\"]}, \"data\": {\"query\": \"@rAma1\", \"matched_lemma_ids\": [\"@rAma1\"], \"total\": 1, \"offset\": 0, \"limit\": 20, \"next_offset\": null, \"results\": [{\"data\": {\"lemma_id\": \"@rAma1\", \"baseindex\": null, \"source_family\": \"shabda\", \"category\": \"subanta\", \"derivation\": null, \"prayoga\": null, \"source_key\": \"forms\", \"pada\": null, \"lakara\": null, \"pratyaya\": null, \"raw_text\": \"रामः;रामौ;रामाः;रामम्;रामौ;रामान्;रामेण;रामाभ्याम्;रामैः;रामाय;रामाभ्याम्;रामेभ्यः;रामाद्-रामात्;रामाभ्याम्;रामेभ्यः;रामस्य;रामयोः;रामाणाम्;रामे;रामयोः;रामेषु;हे राम;हे रामौ;हे रामाः\", \"cells\": [{\"group_index\": 0, \"slot_index\": 12, \"raw_text\": \"रामाद्-रामात्\", \"variants\": [\"रामाद्\", \"रामात्\"], \"purusha\": null, \"vacana\": 1, \"vibhakti\": 5, \"linga\": \"P\", \"role\": \"declined\"}], \"parse_status\": \"decoded\", \"warnings\": []}, \"provenance\": {\"provider\": \"ashtadhyayi-com\", \"repository\": \"https://github.com/ashtadhyayi-com/data\", \"source_path\": \"shabda/data2.txt\", \"source_identifier\": \"@rAma1\", \"source_pointer\": \"/data/6591/forms\", \"upstream_revision\": \"5744762f010d677cfb43f347a42d02796cf615d6\", \"source_sha256\": \"f36b5ce9055dbce1c6f08c006d40ece9a92fd4a1918350190649d7be7b3bf6b7\", \"retrieved_at\": \"2026-09-28T18:19:18.374138Z\", \"source_url\": \"https://raw.githubusercontent.com/ashtadhyayi-com/data/5744762f010d677cfb43f347a42d02796cf615d6/shabda/data2.txt\"}}], \"coverage\": [{\"lemma_id\": \"@rAma1\", \"source_path\": \"shabda/data2.txt\", \"status\": \"present\", \"source_identifier\": \"@rAma1\", \"available_keys\": [\"forms\"], \"provenance\": {\"provider\": \"ashtadhyayi-com\", \"repository\": \"https://github.com/ashtadhyayi-com/data\", \"source_path\": \"shabda/data2.txt\", \"source_identifier\": \"@rAma1\", \"source_pointer\": \"/data/6591/forms\", \"upstream_revision\": \"5744762f010d677cfb43f347a42d02796cf615d6\", \"source_sha256\": \"f36b5ce9055dbce1c6f08c006d40ece9a92fd4a1918350190649d7be7b3bf6b7\", \"retrieved_at\": \"2026-09-28T18:19:18.374138Z\", \"source_url\": \"https://raw.githubusercontent.com/ashtadhyayi-com/data/5744762f010d677cfb43f347a42d02796cf615d6/shabda/data2.txt\"}}], \"exhaustive\": false, \"scope\": \"stored-upstream-paradigms\"}}"
+        }
+      ],
+      "structured_content": {
+        "status": "ok",
+        "snapshot": {
+          "upstream_revision": "5744762f010d677cfb43f347a42d02796cf615d6",
+          "adapter_version": "0.2.0",
+          "loaded_commentary_sources": [
+            "sutrartha",
+            "sutrartha_english",
+            "kashika"
+          ],
+          "loaded_form_sources": [
+            "dhatu/dhatuforms_krut.txt",
+            "dhatu/dhatuforms_vidyut_shuddha_kartari.txt",
+            "dhatu/dhatuforms_vidyut_shuddha_karmani.txt",
+            "dhatu/dhatuforms_vidyut_nich_kartari.txt",
+            "dhatu/dhatuforms_vidyut_nich_karmani.txt",
+            "dhatu/dhatuforms_vidyut_san_kartari.txt",
+            "dhatu/dhatuforms_vidyut_san_karmani.txt",
+            "dhatu/dhatuforms_vidyut_yang_kartari.txt",
+            "dhatu/dhatuforms_vidyut_yang_karmani.txt",
+            "dhatu/dhatuforms_vidyut_yangluk_kartari.txt",
+            "dhatu/dhatuforms_vidyut_yangluk_karmani.txt",
+            "dhatu/dhatuforms_vidyut_shuddha_krut.txt",
+            "dhatu/dhatuforms_vidyut_nich_krut.txt",
+            "dhatu/dhatuforms_vidyut_san_krut.txt",
+            "dhatu/dhatuforms_vidyut_yang_krut.txt",
+            "dhatu/dhatuforms_vidyut_yangluk_krut.txt",
+            "shabda/data2.txt"
+          ]
+        },
+        "data": {
+          "query": "@rAma1",
+          "matched_lemma_ids": [
+            "@rAma1"
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 20,
+          "next_offset": null,
+          "results": [
+            {
+              "data": {
+                "lemma_id": "@rAma1",
+                "baseindex": null,
+                "source_family": "shabda",
+                "category": "subanta",
+                "derivation": null,
+                "prayoga": null,
+                "source_key": "forms",
+                "pada": null,
+                "lakara": null,
+                "pratyaya": null,
+                "raw_text": "रामः;रामौ;रामाः;रामम्;रामौ;रामान्;रामेण;रामाभ्याम्;रामैः;रामाय;रामाभ्याम्;रामेभ्यः;रामाद्-रामात्;रामाभ्याम्;रामेभ्यः;रामस्य;रामयोः;रामाणाम्;रामे;रामयोः;रामेषु;हे राम;हे रामौ;हे रामाः",
+                "cells": [
+                  {
+                    "group_index": 0,
+                    "slot_index": 12,
+                    "raw_text": "रामाद्-रामात्",
+                    "variants": [
+                      "रामाद्",
+                      "रामात्"
+                    ],
+                    "purusha": null,
+                    "vacana": 1,
+                    "vibhakti": 5,
+                    "linga": "P",
+                    "role": "declined"
+                  }
+                ],
+                "parse_status": "decoded",
+                "warnings": []
+              },
+              "provenance": {
+                "provider": "ashtadhyayi-com",
+                "repository": "https://github.com/ashtadhyayi-com/data",
+                "source_path": "shabda/data2.txt",
+                "source_identifier": "@rAma1",
+                "source_pointer": "/data/6591/forms",
+                "upstream_revision": "5744762f010d677cfb43f347a42d02796cf615d6",
+                "source_sha256": "f36b5ce9055dbce1c6f08c006d40ece9a92fd4a1918350190649d7be7b3bf6b7",
+                "retrieved_at": "2026-09-28T18:19:18.374138Z",
+                "source_url": "https://raw.githubusercontent.com/ashtadhyayi-com/data/5744762f010d677cfb43f347a42d02796cf615d6/shabda/data2.txt"
+              }
+            }
+          ],
+          "coverage": [
+            {
+              "lemma_id": "@rAma1",
+              "source_path": "shabda/data2.txt",
+              "status": "present",
+              "source_identifier": "@rAma1",
+              "available_keys": [
+                "forms"
+              ],
+              "provenance": {
+                "provider": "ashtadhyayi-com",
+                "repository": "https://github.com/ashtadhyayi-com/data",
+                "source_path": "shabda/data2.txt",
+                "source_identifier": "@rAma1",
+                "source_pointer": "/data/6591/forms",
+                "upstream_revision": "5744762f010d677cfb43f347a42d02796cf615d6",
+                "source_sha256": "f36b5ce9055dbce1c6f08c006d40ece9a92fd4a1918350190649d7be7b3bf6b7",
+                "retrieved_at": "2026-09-28T18:19:18.374138Z",
+                "source_url": "https://raw.githubusercontent.com/ashtadhyayi-com/data/5744762f010d677cfb43f347a42d02796cf615d6/shabda/data2.txt"
+              }
+            }
+          ],
+          "exhaustive": false,
+          "scope": "stored-upstream-paradigms"
+        }
+      }
+    },
+    "error": null,
+    "status": "completed"
+  },
+  {
+    "id": "item_9",
+    "type": "mcp_tool_call",
+    "server": "ashtadhyayi",
+    "tool": "lookup_form",
+    "arguments": {
+      "query": "रामौ",
+      "include_vocative_alias": true
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"status\": \"ok\", \"snapshot\": {\"upstream_revision\": \"5744762f010d677cfb43f347a42d02796cf615d6\", \"adapter_version\": \"0.2.0\", \"loaded_commentary_sources\": [\"sutrartha\", \"sutrartha_english\", \"kashika\"], \"loaded_form_sources\": [\"dhatu/dhatuforms_krut.txt\", \"dhatu/dhatuforms_vidyut_shuddha_kartari.txt\", \"dhatu/dhatuforms_vidyut_shuddha_karmani.txt\", \"dhatu/dhatuforms_vidyut_nich_kartari.txt\", \"dhatu/dhatuforms_vidyut_nich_karmani.txt\", \"dhatu/dhatuforms_vidyut_san_kartari.txt\", \"dhatu/dhatuforms_vidyut_san_karmani.txt\", \"dhatu/dhatuforms_vidyut_yang_kartari.txt\", \"dhatu/dhatuforms_vidyut_yang_karmani.txt\", \"dhatu/dhatuforms_vidyut_yangluk_kartari.txt\", \"dhatu/dhatuforms_vidyut_yangluk_karmani.txt\", \"dhatu/dhatuforms_vidyut_shuddha_krut.txt\", \"dhatu/dhatuforms_vidyut_nich_krut.txt\", \"dhatu/dhatuforms_vidyut_san_krut.txt\", \"dhatu/dhatuforms_vidyut_yang_krut.txt\", \"dhatu/dhatuforms_vidyut_yangluk_krut.txt\", \"shabda/data2.txt\"]}, \"data\": {\"query\": \"रामौ\", \"normalized_query\": \"रामौ\", \"total\": 3, \"offset\": 0, \"limit\": 10, \"next_offset\": null, \"results\": [{\"data\": {\"lemma_id\": \"@rAma1\", \"baseindex\": null, \"source_family\": \"shabda\", \"category\": \"subanta\", \"derivation\": null, \"prayoga\": null, \"source_key\": \"forms\", \"pada\": null, \"lakara\": null, \"pratyaya\": null, \"cell\": {\"group_index\": 0, \"slot_index\": 1, \"raw_text\": \"रामौ\", \"variants\": [\"रामौ\"], \"purusha\": null, \"vacana\": 2, \"vibhakti\": 1, \"linga\": \"P\", \"role\": \"declined\"}, \"matched_variant\": \"रामौ\", \"match_kind\": \"normalized_exact\", \"parse_status\": \"decoded\"}, \"provenance\": {\"provider\": \"ashtadhyayi-com\", \"repository\": \"https://github.com/ashtadhyayi-com/data\", \"source_path\": \"shabda/data2.txt\", \"source_identifier\": \"@rAma1\", \"source_pointer\": \"/data/6591/forms\", \"upstream_revision\": \"5744762f010d677cfb43f347a42d02796cf615d6\", \"source_sha256\": \"f36b5ce9055dbce1c6f08c006d40ece9a92fd4a1918350190649d7be7b3bf6b7\", \"retrieved_at\": \"2026-09-28T18:19:18.374138Z\", \"source_url\": \"https://raw.githubusercontent.com/ashtadhyayi-com/data/5744762f010d677cfb43f347a42d02796cf615d6/shabda/data2.txt\"}}, {\"data\": {\"lemma_id\": \"@rAma1\", \"baseindex\": null, \"source_family\": \"shabda\", \"category\": \"subanta\", \"derivation\": null, \"prayoga\": null, \"source_key\": \"forms\", \"pada\": null, \"lakara\": null, \"pratyaya\": null, \"cell\": {\"group_index\": 0, \"slot_index\": 4, \"raw_text\": \"रामौ\", \"variants\": [\"रामौ\"], \"purusha\": null, \"vacana\": 2, \"vibhakti\": 2, \"linga\": \"P\", \"role\": \"declined\"}, \"matched_variant\": \"रामौ\", \"match_kind\": \"normalized_exact\", \"parse_status\": \"decoded\"}, \"provenance\": {\"provider\": \"ashtadhyayi-com\", \"repository\": \"https://github.com/ashtadhyayi-com/data\", \"source_path\": \"shabda/data2.txt\", \"source_identifier\": \"@rAma1\", \"source_pointer\": \"/data/6591/forms\", \"upstream_revision\": \"5744762f010d677cfb43f347a42d02796cf615d6\", \"source_sha256\": \"f36b5ce9055dbce1c6f08c006d40ece9a92fd4a1918350190649d7be7b3bf6b7\", \"retrieved_at\": \"2026-09-28T18:19:18.374138Z\", \"source_url\": \"https://raw.githubusercontent.com/ashtadhyayi-com/data/5744762f010d677cfb43f347a42d02796cf615d6/shabda/data2.txt\"}}, {\"data\": {\"lemma_id\": \"@rAma1\", \"baseindex\": null, \"source_family\": \"shabda\", \"category\": \"subanta\", \"derivation\": null, \"prayoga\": null, \"source_key\": \"forms\", \"pada\": null, \"lakara\": null, \"pratyaya\": null, \"cell\": {\"group_index\": 0, \"slot_index\": 22, \"raw_text\": \"हे रामौ\", \"variants\": [\"हे रामौ\"], \"purusha\": null, \"vacana\": 2, \"vibhakti\": 8, \"linga\": \"P\", \"role\": \"declined\"}, \"matched_variant\": \"हे रामौ\", \"match_kind\": \"vocative_particle_removed\", \"parse_status\": \"decoded\"}, \"provenance\": {\"provider\": \"ashtadhyayi-com\", \"repository\": \"https://github.com/ashtadhyayi-com/data\", \"source_path\": \"shabda/data2.txt\", \"source_identifier\": \"@rAma1\", \"source_pointer\": \"/data/6591/forms\", \"upstream_revision\": \"5744762f010d677cfb43f347a42d02796cf615d6\", \"source_sha256\": \"f36b5ce9055dbce1c6f08c006d40ece9a92fd4a1918350190649d7be7b3bf6b7\", \"retrieved_at\": \"2026-09-28T18:19:18.374138Z\", \"source_url\": \"https://raw.githubusercontent.com/ashtadhyayi-com/data/5744762f010d677cfb43f347a42d02796cf615d6/shabda/data2.txt\"}}], \"searched_sources\": [\"dhatu/dhatuforms_krut.txt\", \"dhatu/dhatuforms_vidyut_shuddha_kartari.txt\", \"dhatu/dhatuforms_vidyut_shuddha_karmani.txt\", \"dhatu/dhatuforms_vidyut_nich_kartari.txt\", \"dhatu/dhatuforms_vidyut_nich_karmani.txt\", \"dhatu/dhatuforms_vidyut_san_kartari.txt\", \"dhatu/dhatuforms_vidyut_san_karmani.txt\", \"dhatu/dhatuforms_vidyut_yang_kartari.txt\", \"dhatu/dhatuforms_vidyut_yang_karmani.txt\", \"dhatu/dhatuforms_vidyut_yangluk_kartari.txt\", \"dhatu/dhatuforms_vidyut_yangluk_karmani.txt\", \"dhatu/dhatuforms_vidyut_shuddha_krut.txt\", \"dhatu/dhatuforms_vidyut_nich_krut.txt\", \"dhatu/dhatuforms_vidyut_san_krut.txt\", \"dhatu/dhatuforms_vidyut_yang_krut.txt\", \"dhatu/dhatuforms_vidyut_yangluk_krut.txt\", \"shabda/data2.txt\"], \"missing_sources\": [], \"unparsed_groups\": 408, \"exhaustive\": false, \"interpretation\": \"Matches are stored form occurrences, not context-resolved analyses. No match does not establish invalidity; sandhi and generation are not performed.\"}}"
+        }
+      ],
+      "structured_content": {
+        "status": "ok",
+        "snapshot": {
+          "upstream_revision": "5744762f010d677cfb43f347a42d02796cf615d6",
+          "adapter_version": "0.2.0",
+          "loaded_commentary_sources": [
+            "sutrartha",
+            "sutrartha_english",
+            "kashika"
+          ],
+          "loaded_form_sources": [
+            "dhatu/dhatuforms_krut.txt",
+            "dhatu/dhatuforms_vidyut_shuddha_kartari.txt",
+            "dhatu/dhatuforms_vidyut_shuddha_karmani.txt",
+            "dhatu/dhatuforms_vidyut_nich_kartari.txt",
+            "dhatu/dhatuforms_vidyut_nich_karmani.txt",
+            "dhatu/dhatuforms_vidyut_san_kartari.txt",
+            "dhatu/dhatuforms_vidyut_san_karmani.txt",
+            "dhatu/dhatuforms_vidyut_yang_kartari.txt",
+            "dhatu/dhatuforms_vidyut_yang_karmani.txt",
+            "dhatu/dhatuforms_vidyut_yangluk_kartari.txt",
+            "dhatu/dhatuforms_vidyut_yangluk_karmani.txt",
+            "dhatu/dhatuforms_vidyut_shuddha_krut.txt",
+            "dhatu/dhatuforms_vidyut_nich_krut.txt",
+            "dhatu/dhatuforms_vidyut_san_krut.txt",
+            "dhatu/dhatuforms_vidyut_yang_krut.txt",
+            "dhatu/dhatuforms_vidyut_yangluk_krut.txt",
+            "shabda/data2.txt"
+          ]
+        },
+        "data": {
+          "query": "रामौ",
+          "normalized_query": "रामौ",
+          "total": 3,
+          "offset": 0,
+          "limit": 10,
+          "next_offset": null,
+          "results": [
+            {
+              "data": {
+                "lemma_id": "@rAma1",
+                "baseindex": null,
+                "source_family": "shabda",
+                "category": "subanta",
+                "derivation": null,
+                "prayoga": null,
+                "source_key": "forms",
+                "pada": null,
+                "lakara": null,
+                "pratyaya": null,
+                "cell": {
+                  "group_index": 0,
+                  "slot_index": 1,
+                  "raw_text": "रामौ",
+                  "variants": [
+                    "रामौ"
+                  ],
+                  "purusha": null,
+                  "vacana": 2,
+                  "vibhakti": 1,
+                  "linga": "P",
+                  "role": "declined"
+                },
+                "matched_variant": "रामौ",
+                "match_kind": "normalized_exact",
+                "parse_status": "decoded"
+              },
+              "provenance": {
+                "provider": "ashtadhyayi-com",
+                "repository": "https://github.com/ashtadhyayi-com/data",
+                "source_path": "shabda/data2.txt",
+                "source_identifier": "@rAma1",
+                "source_pointer": "/data/6591/forms",
+                "upstream_revision": "5744762f010d677cfb43f347a42d02796cf615d6",
+                "source_sha256": "f36b5ce9055dbce1c6f08c006d40ece9a92fd4a1918350190649d7be7b3bf6b7",
+                "retrieved_at": "2026-09-28T18:19:18.374138Z",
+                "source_url": "https://raw.githubusercontent.com/ashtadhyayi-com/data/5744762f010d677cfb43f347a42d02796cf615d6/shabda/data2.txt"
+              }
+            },
+            {
+              "data": {
+                "lemma_id": "@rAma1",
+                "baseindex": null,
+                "source_family": "shabda",
+                "category": "subanta",
+                "derivation": null,
+                "prayoga": null,
+                "source_key": "forms",
+                "pada": null,
+                "lakara": null,
+                "pratyaya": null,
+                "cell": {
+                  "group_index": 0,
+                  "slot_index": 4,
+                  "raw_text": "रामौ",
+                  "variants": [
+                    "रामौ"
+                  ],
+                  "purusha": null,
+                  "vacana": 2,
+                  "vibhakti": 2,
+                  "linga": "P",
+                  "role": "declined"
+                },
+                "matched_variant": "रामौ",
+                "match_kind": "normalized_exact",
+                "parse_status": "decoded"
+              },
+              "provenance": {
+                "provider": "ashtadhyayi-com",
+                "repository": "https://github.com/ashtadhyayi-com/data",
+                "source_path": "shabda/data2.txt",
+                "source_identifier": "@rAma1",
+                "source_pointer": "/data/6591/forms",
+                "upstream_revision": "5744762f010d677cfb43f347a42d02796cf615d6",
+                "source_sha256": "f36b5ce9055dbce1c6f08c006d40ece9a92fd4a1918350190649d7be7b3bf6b7",
+                "retrieved_at": "2026-09-28T18:19:18.374138Z",
+                "source_url": "https://raw.githubusercontent.com/ashtadhyayi-com/data/5744762f010d677cfb43f347a42d02796cf615d6/shabda/data2.txt"
+              }
+            },
+            {
+              "data": {
+                "lemma_id": "@rAma1",
+                "baseindex": null,
+                "source_family": "shabda",
+                "category": "subanta",
+                "derivation": null,
+                "prayoga": null,
+                "source_key": "forms",
+                "pada": null,
+                "lakara": null,
+                "pratyaya": null,
+                "cell": {
+                  "group_index": 0,
+                  "slot_index": 22,
+                  "raw_text": "हे रामौ",
+                  "variants": [
+                    "हे रामौ"
+                  ],
+                  "purusha": null,
+                  "vacana": 2,
+                  "vibhakti": 8,
+                  "linga": "P",
+                  "role": "declined"
+                },
+                "matched_variant": "हे रामौ",
+                "match_kind": "vocative_particle_removed",
+                "parse_status": "decoded"
+              },
+              "provenance": {
+                "provider": "ashtadhyayi-com",
+                "repository": "https://github.com/ashtadhyayi-com/data",
+                "source_path": "shabda/data2.txt",
+                "source_identifier": "@rAma1",
+                "source_pointer": "/data/6591/forms",
+                "upstream_revision": "5744762f010d677cfb43f347a42d02796cf615d6",
+                "source_sha256": "f36b5ce9055dbce1c6f08c006d40ece9a92fd4a1918350190649d7be7b3bf6b7",
+                "retrieved_at": "2026-09-28T18:19:18.374138Z",
+                "source_url": "https://raw.githubusercontent.com/ashtadhyayi-com/data/5744762f010d677cfb43f347a42d02796cf615d6/shabda/data2.txt"
+              }
+            }
+          ],
+          "searched_sources": [
+            "dhatu/dhatuforms_krut.txt",
+            "dhatu/dhatuforms_vidyut_shuddha_kartari.txt",
+            "dhatu/dhatuforms_vidyut_shuddha_karmani.txt",
+            "dhatu/dhatuforms_vidyut_nich_kartari.txt",
+            "dhatu/dhatuforms_vidyut_nich_karmani.txt",
+            "dhatu/dhatuforms_vidyut_san_kartari.txt",
+            "dhatu/dhatuforms_vidyut_san_karmani.txt",
+            "dhatu/dhatuforms_vidyut_yang_kartari.txt",
+            "dhatu/dhatuforms_vidyut_yang_karmani.txt",
+            "dhatu/dhatuforms_vidyut_yangluk_kartari.txt",
+            "dhatu/dhatuforms_vidyut_yangluk_karmani.txt",
+            "dhatu/dhatuforms_vidyut_shuddha_krut.txt",
+            "dhatu/dhatuforms_vidyut_nich_krut.txt",
+            "dhatu/dhatuforms_vidyut_san_krut.txt",
+            "dhatu/dhatuforms_vidyut_yang_krut.txt",
+            "dhatu/dhatuforms_vidyut_yangluk_krut.txt",
+            "shabda/data2.txt"
+          ],
+          "missing_sources": [],
+          "unparsed_groups": 408,
+          "exhaustive": false,
+          "interpretation": "Matches are stored form occurrences, not context-resolved analyses. No match does not establish invalidity; sandhi and generation are not performed."
+        }
+      }
+    },
+    "error": null,
+    "status": "completed"
+  },
+  {
+    "id": "item_10",
+    "type": "mcp_tool_call",
+    "server": "ashtadhyayi",
+    "tool": "lookup_form",
+    "arguments": {
+      "query": "भवति",
+      "include_vocative_alias": true
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"status\": \"ok\", \"snapshot\": {\"upstream_revision\": \"5744762f010d677cfb43f347a42d02796cf615d6\", \"adapter_version\": \"0.2.0\", \"loaded_commentary_sources\": [\"sutrartha\", \"sutrartha_english\", \"kashika\"], \"loaded_form_sources\": [\"dhatu/dhatuforms_krut.txt\", \"dhatu/dhatuforms_vidyut_shuddha_kartari.txt\", \"dhatu/dhatuforms_vidyut_shuddha_karmani.txt\", \"dhatu/dhatuforms_vidyut_nich_kartari.txt\", \"dhatu/dhatuforms_vidyut_nich_karmani.txt\", \"dhatu/dhatuforms_vidyut_san_kartari.txt\", \"dhatu/dhatuforms_vidyut_san_karmani.txt\", \"dhatu/dhatuforms_vidyut_yang_kartari.txt\", \"dhatu/dhatuforms_vidyut_yang_karmani.txt\", \"dhatu/dhatuforms_vidyut_yangluk_kartari.txt\", \"dhatu/dhatuforms_vidyut_yangluk_karmani.txt\", \"dhatu/dhatuforms_vidyut_shuddha_krut.txt\", \"dhatu/dhatuforms_vidyut_nich_krut.txt\", \"dhatu/dhatuforms_vidyut_san_krut.txt\", \"dhatu/dhatuforms_vidyut_yang_krut.txt\", \"dhatu/dhatuforms_vidyut_yangluk_krut.txt\", \"shabda/data2.txt\"]}, \"data\": {\"query\": \"भवति\", \"normalized_query\": \"भवति\", \"total\": 5, \"offset\": 0, \"limit\": 10, \"next_offset\": null, \"results\": [{\"data\": {\"lemma_id\": \"1010001\", \"baseindex\": \"01.0001\", \"source_family\": \"vidyut\", \"category\": \"tinanta\", \"derivation\": \"shuddha\", \"prayoga\": \"kartari\", \"source_key\": \"plat\", \"pada\": \"P\", \"lakara\": \"lat\", \"pratyaya\": null, \"cell\": {\"group_index\": 0, \"slot_index\": 0, \"raw_text\": \"भवति\", \"variants\": [\"भवति\"], \"purusha\": \"prathama\", \"vacana\": 1, \"vibhakti\": null, \"linga\": null, \"role\": \"finite\"}, \"matched_variant\": \"भवति\", \"match_kind\": \"normalized_exact\", \"parse_status\": \"decoded\"}, \"provenance\": {\"provider\": \"ashtadhyayi-com\", \"repository\": \"https://github.com/ashtadhyayi-com/data\", \"source_path\": \"dhatu/dhatuforms_vidyut_shuddha_kartari.txt\", \"source_identifier\": \"01.0001\", \"source_pointer\": \"/01.0001/plat\", \"upstream_revision\": \"5744762f010d677cfb43f347a42d02796cf615d6\", \"source_sha256\": \"2b58781b2da74e74e970a0f79be84b7140e5efdb2dd28afe7c86725a6281b2c5\", \"retrieved_at\": \"2026-09-28T18:19:10.318780Z\", \"source_url\": \"https://raw.githubusercontent.com/ashtadhyayi-com/data/5744762f010d677cfb43f347a42d02796cf615d6/dhatu/dhatuforms_vidyut_shuddha_kartari.txt\"}}, {\"data\": {\"lemma_id\": \"1100382\", \"baseindex\": \"10.0382\", \"source_family\": \"vidyut\", \"category\": \"tinanta\", \"derivation\": \"shuddha\", \"prayoga\": \"kartari\", \"source_key\": \"plat\", \"pada\": \"P\", \"lakara\": \"lat\", \"pratyaya\": null, \"cell\": {\"group_index\": 0, \"slot_index\": 0, \"raw_text\": \"भवति,भावयति\", \"variants\": [\"भवति\", \"भावयति\"], \"purusha\": \"prathama\", \"vacana\": 1, \"vibhakti\": null, \"linga\": null, \"role\": \"finite\"}, \"matched_variant\": \"भवति\", \"match_kind\": \"normalized_exact\", \"parse_status\": \"decoded\"}, \"provenance\": {\"provider\": \"ashtadhyayi-com\", \"repository\": \"https://github.com/ashtadhyayi-com/data\", \"source_path\": \"dhatu/dhatuforms_vidyut_shuddha_kartari.txt\", \"source_identifier\": \"10.0382\", \"source_pointer\": \"/10.0382/plat\", \"upstream_revision\": \"5744762f010d677cfb43f347a42d02796cf615d6\", \"source_sha256\": \"2b58781b2da74e74e970a0f79be84b7140e5efdb2dd28afe7c86725a6281b2c5\", \"retrieved_at\": \"2026-09-28T18:19:10.318780Z\", \"source_url\": \"https://raw.githubusercontent.com/ashtadhyayi-com/data/5744762f010d677cfb43f347a42d02796cf615d6/dhatu/dhatuforms_vidyut_shuddha_kartari.txt\"}}, {\"data\": {\"lemma_id\": \"@bhavatI1\", \"baseindex\": null, \"source_family\": \"shabda\", \"category\": \"subanta\", \"derivation\": null, \"prayoga\": null, \"source_key\": \"forms\", \"pada\": null, \"lakara\": null, \"pratyaya\": null, \"cell\": {\"group_index\": 0, \"slot_index\": 21, \"raw_text\": \"हे भवति\", \"variants\": [\"हे भवति\"], \"purusha\": null, \"vacana\": 1, \"vibhakti\": 8, \"linga\": \"S\", \"role\": \"declined\"}, \"matched_variant\": \"हे भवति\", \"match_kind\": \"vocative_particle_removed\", \"parse_status\": \"decoded\"}, \"provenance\": {\"provider\": \"ashtadhyayi-com\", \"repository\": \"https://github.com/ashtadhyayi-com/data\", \"source_path\": \"shabda/data2.txt\", \"source_identifier\": \"@bhavatI1\", \"source_pointer\": \"/data/5687/forms\", \"upstream_revision\": \"5744762f010d677cfb43f347a42d02796cf615d6\", \"source_sha256\": \"f36b5ce9055dbce1c6f08c006d40ece9a92fd4a1918350190649d7be7b3bf6b7\", \"retrieved_at\": \"2026-09-28T18:19:18.374138Z\", \"source_url\": \"https://raw.githubusercontent.com/ashtadhyayi-com/data/5744762f010d677cfb43f347a42d02796cf615d6/shabda/data2.txt\"}}, {\"data\": {\"lemma_id\": \"@bhavat1\", \"baseindex\": null, \"source_family\": \"shabda\", \"category\": \"subanta\", \"derivation\": null, \"prayoga\": null, \"source_key\": \"forms\", \"pada\": null, \"lakara\": null, \"pratyaya\": null, \"cell\": {\"group_index\": 0, \"slot_index\": 18, \"raw_text\": \"भवति\", \"variants\": [\"भवति\"], \"purusha\": null, \"vacana\": 1, \"vibhakti\": 7, \"linga\": \"P\", \"role\": \"declined\"}, \"matched_variant\": \"भवति\", \"match_kind\": \"normalized_exact\", \"parse_status\": \"decoded\"}, \"provenance\": {\"provider\": \"ashtadhyayi-com\", \"repository\": \"https://github.com/ashtadhyayi-com/data\", \"source_path\": \"shabda/data2.txt\", \"source_identifier\": \"@bhavat1\", \"source_pointer\": \"/data/5688/forms\", \"upstream_revision\": \"5744762f010d677cfb43f347a42d02796cf615d6\", \"source_sha256\": \"f36b5ce9055dbce1c6f08c006d40ece9a92fd4a1918350190649d7be7b3bf6b7\", \"retrieved_at\": \"2026-09-28T18:19:18.374138Z\", \"source_url\": \"https://raw.githubusercontent.com/ashtadhyayi-com/data/5744762f010d677cfb43f347a42d02796cf615d6/shabda/data2.txt\"}}, {\"data\": {\"lemma_id\": \"@bhavat2\", \"baseindex\": null, \"source_family\": \"shabda\", \"category\": \"subanta\", \"derivation\": null, \"prayoga\": null, \"source_key\": \"forms\", \"pada\": null, \"lakara\": null, \"pratyaya\": null, \"cell\": {\"group_index\": 0, \"slot_index\": 18, \"raw_text\": \"भवति\", \"variants\": [\"भवति\"], \"purusha\": null, \"vacana\": 1, \"vibhakti\": 7, \"linga\": \"P\", \"role\": \"declined\"}, \"matched_variant\": \"भवति\", \"match_kind\": \"normalized_exact\", \"parse_status\": \"decoded\"}, \"provenance\": {\"provider\": \"ashtadhyayi-com\", \"repository\": \"https://github.com/ashtadhyayi-com/data\", \"source_path\": \"shabda/data2.txt\", \"source_identifier\": \"@bhavat2\", \"source_pointer\": \"/data/5689/forms\", \"upstream_revision\": \"5744762f010d677cfb43f347a42d02796cf615d6\", \"source_sha256\": \"f36b5ce9055dbce1c6f08c006d40ece9a92fd4a1918350190649d7be7b3bf6b7\", \"retrieved_at\": \"2026-09-28T18:19:18.374138Z\", \"source_url\": \"https://raw.githubusercontent.com/ashtadhyayi-com/data/5744762f010d677cfb43f347a42d02796cf615d6/shabda/data2.txt\"}}], \"searched_sources\": [\"dhatu/dhatuforms_krut.txt\", \"dhatu/dhatuforms_vidyut_shuddha_kartari.txt\", \"dhatu/dhatuforms_vidyut_shuddha_karmani.txt\", \"dhatu/dhatuforms_vidyut_nich_kartari.txt\", \"dhatu/dhatuforms_vidyut_nich_karmani.txt\", \"dhatu/dhatuforms_vidyut_san_kartari.txt\", \"dhatu/dhatuforms_vidyut_san_karmani.txt\", \"dhatu/dhatuforms_vidyut_yang_kartari.txt\", \"dhatu/dhatuforms_vidyut_yang_karmani.txt\", \"dhatu/dhatuforms_vidyut_yangluk_kartari.txt\", \"dhatu/dhatuforms_vidyut_yangluk_karmani.txt\", \"dhatu/dhatuforms_vidyut_shuddha_krut.txt\", \"dhatu/dhatuforms_vidyut_nich_krut.txt\", \"dhatu/dhatuforms_vidyut_san_krut.txt\", \"dhatu/dhatuforms_vidyut_yang_krut.txt\", \"dhatu/dhatuforms_vidyut_yangluk_krut.txt\", \"shabda/data2.txt\"], \"missing_sources\": [], \"unparsed_groups\": 408, \"exhaustive\": false, \"interpretation\": \"Matches are stored form occurrences, not context-resolved analyses. No match does not establish invalidity; sandhi and generation are not performed.\"}}"
+        }
+      ],
+      "structured_content": {
+        "status": "ok",
+        "snapshot": {
+          "upstream_revision": "5744762f010d677cfb43f347a42d02796cf615d6",
+          "adapter_version": "0.2.0",
+          "loaded_commentary_sources": [
+            "sutrartha",
+            "sutrartha_english",
+            "kashika"
+          ],
+          "loaded_form_sources": [
+            "dhatu/dhatuforms_krut.txt",
+            "dhatu/dhatuforms_vidyut_shuddha_kartari.txt",
+            "dhatu/dhatuforms_vidyut_shuddha_karmani.txt",
+            "dhatu/dhatuforms_vidyut_nich_kartari.txt",
+            "dhatu/dhatuforms_vidyut_nich_karmani.txt",
+            "dhatu/dhatuforms_vidyut_san_kartari.txt",
+            "dhatu/dhatuforms_vidyut_san_karmani.txt",
+            "dhatu/dhatuforms_vidyut_yang_kartari.txt",
+            "dhatu/dhatuforms_vidyut_yang_karmani.txt",
+            "dhatu/dhatuforms_vidyut_yangluk_kartari.txt",
+            "dhatu/dhatuforms_vidyut_yangluk_karmani.txt",
+            "dhatu/dhatuforms_vidyut_shuddha_krut.txt",
+            "dhatu/dhatuforms_vidyut_nich_krut.txt",
+            "dhatu/dhatuforms_vidyut_san_krut.txt",
+            "dhatu/dhatuforms_vidyut_yang_krut.txt",
+            "dhatu/dhatuforms_vidyut_yangluk_krut.txt",
+            "shabda/data2.txt"
+          ]
+        },
+        "data": {
+          "query": "भवति",
+          "normalized_query": "भवति",
+          "total": 5,
+          "offset": 0,
+          "limit": 10,
+          "next_offset": null,
+          "results": [
+            {
+              "data": {
+                "lemma_id": "1010001",
+                "baseindex": "01.0001",
+                "source_family": "vidyut",
+                "category": "tinanta",
+                "derivation": "shuddha",
+                "prayoga": "kartari",
+                "source_key": "plat",
+                "pada": "P",
+                "lakara": "lat",
+                "pratyaya": null,
+                "cell": {
+                  "group_index": 0,
+                  "slot_index": 0,
+                  "raw_text": "भवति",
+                  "variants": [
+                    "भवति"
+                  ],
+                  "purusha": "prathama",
+                  "vacana": 1,
+                  "vibhakti": null,
+                  "linga": null,
+                  "role": "finite"
+                },
+                "matched_variant": "भवति",
+                "match_kind": "normalized_exact",
+                "parse_status": "decoded"
+              },
+              "provenance": {
+                "provider": "ashtadhyayi-com",
+                "repository": "https://github.com/ashtadhyayi-com/data",
+                "source_path": "dhatu/dhatuforms_vidyut_shuddha_kartari.txt",
+                "source_identifier": "01.0001",
+                "source_pointer": "/01.0001/plat",
+                "upstream_revision": "5744762f010d677cfb43f347a42d02796cf615d6",
+                "source_sha256": "2b58781b2da74e74e970a0f79be84b7140e5efdb2dd28afe7c86725a6281b2c5",
+                "retrieved_at": "2026-09-28T18:19:10.318780Z",
+                "source_url": "https://raw.githubusercontent.com/ashtadhyayi-com/data/5744762f010d677cfb43f347a42d02796cf615d6/dhatu/dhatuforms_vidyut_shuddha_kartari.txt"
+              }
+            },
+            {
+              "data": {
+                "lemma_id": "1100382",
+                "baseindex": "10.0382",
+                "source_family": "vidyut",
+                "category": "tinanta",
+                "derivation": "shuddha",
+                "prayoga": "kartari",
+                "source_key": "plat",
+                "pada": "P",
+                "lakara": "lat",
+                "pratyaya": null,
+                "cell": {
+                  "group_index": 0,
+                  "slot_index": 0,
+                  "raw_text": "भवति,भावयति",
+                  "variants": [
+                    "भवति",
+                    "भावयति"
+                  ],
+                  "purusha": "prathama",
+                  "vacana": 1,
+                  "vibhakti": null,
+                  "linga": null,
+                  "role": "finite"
+                },
+                "matched_variant": "भवति",
+                "match_kind": "normalized_exact",
+                "parse_status": "decoded"
+              },
+              "provenance": {
+                "provider": "ashtadhyayi-com",
+                "repository": "https://github.com/ashtadhyayi-com/data",
+                "source_path": "dhatu/dhatuforms_vidyut_shuddha_kartari.txt",
+                "source_identifier": "10.0382",
+                "source_pointer": "/10.0382/plat",
+                "upstream_revision": "5744762f010d677cfb43f347a42d02796cf615d6",
+                "source_sha256": "2b58781b2da74e74e970a0f79be84b7140e5efdb2dd28afe7c86725a6281b2c5",
+                "retrieved_at": "2026-09-28T18:19:10.318780Z",
+                "source_url": "https://raw.githubusercontent.com/ashtadhyayi-com/data/5744762f010d677cfb43f347a42d02796cf615d6/dhatu/dhatuforms_vidyut_shuddha_kartari.txt"
+              }
+            },
+            {
+              "data": {
+                "lemma_id": "@bhavatI1",
+                "baseindex": null,
+                "source_family": "shabda",
+                "category": "subanta",
+                "derivation": null,
+                "prayoga": null,
+                "source_key": "forms",
+                "pada": null,
+                "lakara": null,
+                "pratyaya": null,
+                "cell": {
+                  "group_index": 0,
+                  "slot_index": 21,
+                  "raw_text": "हे भवति",
+                  "variants": [
+                    "हे भवति"
+                  ],
+                  "purusha": null,
+                  "vacana": 1,
+                  "vibhakti": 8,
+                  "linga": "S",
+                  "role": "declined"
+                },
+                "matched_variant": "हे भवति",
+                "match_kind": "vocative_particle_removed",
+                "parse_status": "decoded"
+              },
+              "provenance": {
+                "provider": "ashtadhyayi-com",
+                "repository": "https://github.com/ashtadhyayi-com/data",
+                "source_path": "shabda/data2.txt",
+                "source_identifier": "@bhavatI1",
+                "source_pointer": "/data/5687/forms",
+                "upstream_revision": "5744762f010d677cfb43f347a42d02796cf615d6",
+                "source_sha256": "f36b5ce9055dbce1c6f08c006d40ece9a92fd4a1918350190649d7be7b3bf6b7",
+                "retrieved_at": "2026-09-28T18:19:18.374138Z",
+                "source_url": "https://raw.githubusercontent.com/ashtadhyayi-com/data/5744762f010d677cfb43f347a42d02796cf615d6/shabda/data2.txt"
+              }
+            },
+            {
+              "data": {
+                "lemma_id": "@bhavat1",
+                "baseindex": null,
+                "source_family": "shabda",
+                "category": "subanta",
+                "derivation": null,
+                "prayoga": null,
+                "source_key": "forms",
+                "pada": null,
+                "lakara": null,
+                "pratyaya": null,
+                "cell": {
+                  "group_index": 0,
+                  "slot_index": 18,
+                  "raw_text": "भवति",
+                  "variants": [
+                    "भवति"
+                  ],
+                  "purusha": null,
+                  "vacana": 1,
+                  "vibhakti": 7,
+                  "linga": "P",
+                  "role": "declined"
+                },
+                "matched_variant": "भवति",
+                "match_kind": "normalized_exact",
+                "parse_status": "decoded"
+              },
+              "provenance": {
+                "provider": "ashtadhyayi-com",
+                "repository": "https://github.com/ashtadhyayi-com/data",
+                "source_path": "shabda/data2.txt",
+                "source_identifier": "@bhavat1",
+                "source_pointer": "/data/5688/forms",
+                "upstream_revision": "5744762f010d677cfb43f347a42d02796cf615d6",
+                "source_sha256": "f36b5ce9055dbce1c6f08c006d40ece9a92fd4a1918350190649d7be7b3bf6b7",
+                "retrieved_at": "2026-09-28T18:19:18.374138Z",
+                "source_url": "https://raw.githubusercontent.com/ashtadhyayi-com/data/5744762f010d677cfb43f347a42d02796cf615d6/shabda/data2.txt"
+              }
+            },
+            {
+              "data": {
+                "lemma_id": "@bhavat2",
+                "baseindex": null,
+                "source_family": "shabda",
+                "category": "subanta",
+                "derivation": null,
+                "prayoga": null,
+                "source_key": "forms",
+                "pada": null,
+                "lakara": null,
+                "pratyaya": null,
+                "cell": {
+                  "group_index": 0,
+                  "slot_index": 18,
+                  "raw_text": "भवति",
+                  "variants": [
+                    "भवति"
+                  ],
+                  "purusha": null,
+                  "vacana": 1,
+                  "vibhakti": 7,
+                  "linga": "P",
+                  "role": "declined"
+                },
+                "matched_variant": "भवति",
+                "match_kind": "normalized_exact",
+                "parse_status": "decoded"
+              },
+              "provenance": {
+                "provider": "ashtadhyayi-com",
+                "repository": "https://github.com/ashtadhyayi-com/data",
+                "source_path": "shabda/data2.txt",
+                "source_identifier": "@bhavat2",
+                "source_pointer": "/data/5689/forms",
+                "upstream_revision": "5744762f010d677cfb43f347a42d02796cf615d6",
+                "source_sha256": "f36b5ce9055dbce1c6f08c006d40ece9a92fd4a1918350190649d7be7b3bf6b7",
+                "retrieved_at": "2026-09-28T18:19:18.374138Z",
+                "source_url": "https://raw.githubusercontent.com/ashtadhyayi-com/data/5744762f010d677cfb43f347a42d02796cf615d6/shabda/data2.txt"
+              }
+            }
+          ],
+          "searched_sources": [
+            "dhatu/dhatuforms_krut.txt",
+            "dhatu/dhatuforms_vidyut_shuddha_kartari.txt",
+            "dhatu/dhatuforms_vidyut_shuddha_karmani.txt",
+            "dhatu/dhatuforms_vidyut_nich_kartari.txt",
+            "dhatu/dhatuforms_vidyut_nich_karmani.txt",
+            "dhatu/dhatuforms_vidyut_san_kartari.txt",
+            "dhatu/dhatuforms_vidyut_san_karmani.txt",
+            "dhatu/dhatuforms_vidyut_yang_kartari.txt",
+            "dhatu/dhatuforms_vidyut_yang_karmani.txt",
+            "dhatu/dhatuforms_vidyut_yangluk_kartari.txt",
+            "dhatu/dhatuforms_vidyut_yangluk_karmani.txt",
+            "dhatu/dhatuforms_vidyut_shuddha_krut.txt",
+            "dhatu/dhatuforms_vidyut_nich_krut.txt",
+            "dhatu/dhatuforms_vidyut_san_krut.txt",
+            "dhatu/dhatuforms_vidyut_yang_krut.txt",
+            "dhatu/dhatuforms_vidyut_yangluk_krut.txt",
+            "shabda/data2.txt"
+          ],
+          "missing_sources": [],
+          "unparsed_groups": 408,
+          "exhaustive": false,
+          "interpretation": "Matches are stored form occurrences, not context-resolved analyses. No match does not establish invalidity; sandhi and generation are not performed."
+        }
+      }
+    },
+    "error": null,
+    "status": "completed"
+  },
+  {
+    "id": "item_12",
+    "type": "mcp_tool_call",
+    "server": "ashtadhyayi",
+    "tool": "lookup_form",
+    "arguments": {
+      "query": "__absent_test_form__"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"status\": \"ok\", \"snapshot\": {\"upstream_revision\": \"5744762f010d677cfb43f347a42d02796cf615d6\", \"adapter_version\": \"0.2.0\", \"loaded_commentary_sources\": [\"sutrartha\", \"sutrartha_english\", \"kashika\"], \"loaded_form_sources\": [\"dhatu/dhatuforms_krut.txt\", \"dhatu/dhatuforms_vidyut_shuddha_kartari.txt\", \"dhatu/dhatuforms_vidyut_shuddha_karmani.txt\", \"dhatu/dhatuforms_vidyut_nich_kartari.txt\", \"dhatu/dhatuforms_vidyut_nich_karmani.txt\", \"dhatu/dhatuforms_vidyut_san_kartari.txt\", \"dhatu/dhatuforms_vidyut_san_karmani.txt\", \"dhatu/dhatuforms_vidyut_yang_kartari.txt\", \"dhatu/dhatuforms_vidyut_yang_karmani.txt\", \"dhatu/dhatuforms_vidyut_yangluk_kartari.txt\", \"dhatu/dhatuforms_vidyut_yangluk_karmani.txt\", \"dhatu/dhatuforms_vidyut_shuddha_krut.txt\", \"dhatu/dhatuforms_vidyut_nich_krut.txt\", \"dhatu/dhatuforms_vidyut_san_krut.txt\", \"dhatu/dhatuforms_vidyut_yang_krut.txt\", \"dhatu/dhatuforms_vidyut_yangluk_krut.txt\", \"shabda/data2.txt\"]}, \"data\": {\"query\": \"__absent_test_form__\", \"normalized_query\": \"__absent_test_form__\", \"total\": 0, \"offset\": 0, \"limit\": 10, \"next_offset\": null, \"results\": [], \"searched_sources\": [\"dhatu/dhatuforms_krut.txt\", \"dhatu/dhatuforms_vidyut_shuddha_kartari.txt\", \"dhatu/dhatuforms_vidyut_shuddha_karmani.txt\", \"dhatu/dhatuforms_vidyut_nich_kartari.txt\", \"dhatu/dhatuforms_vidyut_nich_karmani.txt\", \"dhatu/dhatuforms_vidyut_san_kartari.txt\", \"dhatu/dhatuforms_vidyut_san_karmani.txt\", \"dhatu/dhatuforms_vidyut_yang_kartari.txt\", \"dhatu/dhatuforms_vidyut_yang_karmani.txt\", \"dhatu/dhatuforms_vidyut_yangluk_kartari.txt\", \"dhatu/dhatuforms_vidyut_yangluk_karmani.txt\", \"dhatu/dhatuforms_vidyut_shuddha_krut.txt\", \"dhatu/dhatuforms_vidyut_nich_krut.txt\", \"dhatu/dhatuforms_vidyut_san_krut.txt\", \"dhatu/dhatuforms_vidyut_yang_krut.txt\", \"dhatu/dhatuforms_vidyut_yangluk_krut.txt\", \"shabda/data2.txt\"], \"missing_sources\": [], \"unparsed_groups\": 408, \"exhaustive\": false, \"interpretation\": \"Matches are stored form occurrences, not context-resolved analyses. No match does not establish invalidity; sandhi and generation are not performed.\"}}"
+        }
+      ],
+      "structured_content": {
+        "status": "ok",
+        "snapshot": {
+          "upstream_revision": "5744762f010d677cfb43f347a42d02796cf615d6",
+          "adapter_version": "0.2.0",
+          "loaded_commentary_sources": [
+            "sutrartha",
+            "sutrartha_english",
+            "kashika"
+          ],
+          "loaded_form_sources": [
+            "dhatu/dhatuforms_krut.txt",
+            "dhatu/dhatuforms_vidyut_shuddha_kartari.txt",
+            "dhatu/dhatuforms_vidyut_shuddha_karmani.txt",
+            "dhatu/dhatuforms_vidyut_nich_kartari.txt",
+            "dhatu/dhatuforms_vidyut_nich_karmani.txt",
+            "dhatu/dhatuforms_vidyut_san_kartari.txt",
+            "dhatu/dhatuforms_vidyut_san_karmani.txt",
+            "dhatu/dhatuforms_vidyut_yang_kartari.txt",
+            "dhatu/dhatuforms_vidyut_yang_karmani.txt",
+            "dhatu/dhatuforms_vidyut_yangluk_kartari.txt",
+            "dhatu/dhatuforms_vidyut_yangluk_karmani.txt",
+            "dhatu/dhatuforms_vidyut_shuddha_krut.txt",
+            "dhatu/dhatuforms_vidyut_nich_krut.txt",
+            "dhatu/dhatuforms_vidyut_san_krut.txt",
+            "dhatu/dhatuforms_vidyut_yang_krut.txt",
+            "dhatu/dhatuforms_vidyut_yangluk_krut.txt",
+            "shabda/data2.txt"
+          ]
+        },
+        "data": {
+          "query": "__absent_test_form__",
+          "normalized_query": "__absent_test_form__",
+          "total": 0,
+          "offset": 0,
+          "limit": 10,
+          "next_offset": null,
+          "results": [],
+          "searched_sources": [
+            "dhatu/dhatuforms_krut.txt",
+            "dhatu/dhatuforms_vidyut_shuddha_kartari.txt",
+            "dhatu/dhatuforms_vidyut_shuddha_karmani.txt",
+            "dhatu/dhatuforms_vidyut_nich_kartari.txt",
+            "dhatu/dhatuforms_vidyut_nich_karmani.txt",
+            "dhatu/dhatuforms_vidyut_san_kartari.txt",
+            "dhatu/dhatuforms_vidyut_san_karmani.txt",
+            "dhatu/dhatuforms_vidyut_yang_kartari.txt",
+            "dhatu/dhatuforms_vidyut_yang_karmani.txt",
+            "dhatu/dhatuforms_vidyut_yangluk_kartari.txt",
+            "dhatu/dhatuforms_vidyut_yangluk_karmani.txt",
+            "dhatu/dhatuforms_vidyut_shuddha_krut.txt",
+            "dhatu/dhatuforms_vidyut_nich_krut.txt",
+            "dhatu/dhatuforms_vidyut_san_krut.txt",
+            "dhatu/dhatuforms_vidyut_yang_krut.txt",
+            "dhatu/dhatuforms_vidyut_yangluk_krut.txt",
+            "shabda/data2.txt"
+          ],
+          "missing_sources": [],
+          "unparsed_groups": 408,
+          "exhaustive": false,
+          "interpretation": "Matches are stored form occurrences, not context-resolved analyses. No match does not establish invalidity; sandhi and generation are not performed."
+        }
+      }
+    },
+    "error": null,
+    "status": "completed"
+  },
+  {
+    "id": "item_11",
+    "type": "mcp_tool_call",
+    "server": "ashtadhyayi",
+    "tool": "get_dhatu_forms",
+    "arguments": {
+      "by": "baseindex",
+      "query": "01.0001",
+      "category": "tinanta",
+      "derivation": "shuddha",
+      "prayoga": "kartari",
+      "lakara": "lat",
+      "pada": "P"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"status\": \"ok\", \"snapshot\": {\"upstream_revision\": \"5744762f010d677cfb43f347a42d02796cf615d6\", \"adapter_version\": \"0.2.0\", \"loaded_commentary_sources\": [\"sutrartha\", \"sutrartha_english\", \"kashika\"], \"loaded_form_sources\": [\"dhatu/dhatuforms_krut.txt\", \"dhatu/dhatuforms_vidyut_shuddha_kartari.txt\", \"dhatu/dhatuforms_vidyut_shuddha_karmani.txt\", \"dhatu/dhatuforms_vidyut_nich_kartari.txt\", \"dhatu/dhatuforms_vidyut_nich_karmani.txt\", \"dhatu/dhatuforms_vidyut_san_kartari.txt\", \"dhatu/dhatuforms_vidyut_san_karmani.txt\", \"dhatu/dhatuforms_vidyut_yang_kartari.txt\", \"dhatu/dhatuforms_vidyut_yang_karmani.txt\", \"dhatu/dhatuforms_vidyut_yangluk_kartari.txt\", \"dhatu/dhatuforms_vidyut_yangluk_karmani.txt\", \"dhatu/dhatuforms_vidyut_shuddha_krut.txt\", \"dhatu/dhatuforms_vidyut_nich_krut.txt\", \"dhatu/dhatuforms_vidyut_san_krut.txt\", \"dhatu/dhatuforms_vidyut_yang_krut.txt\", \"dhatu/dhatuforms_vidyut_yangluk_krut.txt\", \"shabda/data2.txt\"]}, \"data\": {\"query\": \"01.0001\", \"matched_lemma_ids\": [\"1010001\"], \"total\": 1, \"offset\": 0, \"limit\": 20, \"next_offset\": null, \"results\": [{\"data\": {\"lemma_id\": \"1010001\", \"baseindex\": \"01.0001\", \"source_family\": \"vidyut\", \"category\": \"tinanta\", \"derivation\": \"shuddha\", \"prayoga\": \"kartari\", \"source_key\": \"plat\", \"pada\": \"P\", \"lakara\": \"lat\", \"pratyaya\": null, \"raw_text\": \"भवति;भवतः;भवन्ति;भवसि;भवथः;भवथ;भवामि;भवावः;भवामः\", \"cells\": [{\"group_index\": 0, \"slot_index\": 0, \"raw_text\": \"भवति\", \"variants\": [\"भवति\"], \"purusha\": \"prathama\", \"vacana\": 1, \"vibhakti\": null, \"linga\": null, \"role\": \"finite\"}, {\"group_index\": 0, \"slot_index\": 1, \"raw_text\": \"भवतः\", \"variants\": [\"भवतः\"], \"purusha\": \"prathama\", \"vacana\": 2, \"vibhakti\": null, \"linga\": null, \"role\": \"finite\"}, {\"group_index\": 0, \"slot_index\": 2, \"raw_text\": \"भवन्ति\", \"variants\": [\"भवन्ति\"], \"purusha\": \"prathama\", \"vacana\": 3, \"vibhakti\": null, \"linga\": null, \"role\": \"finite\"}, {\"group_index\": 0, \"slot_index\": 3, \"raw_text\": \"भवसि\", \"variants\": [\"भवसि\"], \"purusha\": \"madhyama\", \"vacana\": 1, \"vibhakti\": null, \"linga\": null, \"role\": \"finite\"}, {\"group_index\": 0, \"slot_index\": 4, \"raw_text\": \"भवथः\", \"variants\": [\"भवथः\"], \"purusha\": \"madhyama\", \"vacana\": 2, \"vibhakti\": null, \"linga\": null, \"role\": \"finite\"}, {\"group_index\": 0, \"slot_index\": 5, \"raw_text\": \"भवथ\", \"variants\": [\"भवथ\"], \"purusha\": \"madhyama\", \"vacana\": 3, \"vibhakti\": null, \"linga\": null, \"role\": \"finite\"}, {\"group_index\": 0, \"slot_index\": 6, \"raw_text\": \"भवामि\", \"variants\": [\"भवामि\"], \"purusha\": \"uttama\", \"vacana\": 1, \"vibhakti\": null, \"linga\": null, \"role\": \"finite\"}, {\"group_index\": 0, \"slot_index\": 7, \"raw_text\": \"भवावः\", \"variants\": [\"भवावः\"], \"purusha\": \"uttama\", \"vacana\": 2, \"vibhakti\": null, \"linga\": null, \"role\": \"finite\"}, {\"group_index\": 0, \"slot_index\": 8, \"raw_text\": \"भवामः\", \"variants\": [\"भवामः\"], \"purusha\": \"uttama\", \"vacana\": 3, \"vibhakti\": null, \"linga\": null, \"role\": \"finite\"}], \"parse_status\": \"decoded\", \"warnings\": []}, \"provenance\": {\"provider\": \"ashtadhyayi-com\", \"repository\": \"https://github.com/ashtadhyayi-com/data\", \"source_path\": \"dhatu/dhatuforms_vidyut_shuddha_kartari.txt\", \"source_identifier\": \"01.0001\", \"source_pointer\": \"/01.0001/plat\", \"upstream_revision\": \"5744762f010d677cfb43f347a42d02796cf615d6\", \"source_sha256\": \"2b58781b2da74e74e970a0f79be84b7140e5efdb2dd28afe7c86725a6281b2c5\", \"retrieved_at\": \"2026-09-28T18:19:10.318780Z\", \"source_url\": \"https://raw.githubusercontent.com/ashtadhyayi-com/data/5744762f010d677cfb43f347a42d02796cf615d6/dhatu/dhatuforms_vidyut_shuddha_kartari.txt\"}}], \"coverage\": [{\"lemma_id\": \"1010001\", \"source_path\": \"dhatu/dhatuforms_vidyut_shuddha_kartari.txt\", \"status\": \"present\", \"source_identifier\": \"01.0001\", \"available_keys\": [\"pashirling\", \"plang\", \"plat\", \"plit\", \"plot\", \"plrung\", \"plrut\", \"plung\", \"plut\", \"pvidhiling\"], \"provenance\": {\"provider\": \"ashtadhyayi-com\", \"repository\": \"https://github.com/ashtadhyayi-com/data\", \"source_path\": \"dhatu/dhatuforms_vidyut_shuddha_kartari.txt\", \"source_identifier\": \"01.0001\", \"source_pointer\": \"/01.0001\", \"upstream_revision\": \"5744762f010d677cfb43f347a42d02796cf615d6\", \"source_sha256\": \"2b58781b2da74e74e970a0f79be84b7140e5efdb2dd28afe7c86725a6281b2c5\", \"retrieved_at\": \"2026-09-28T18:19:10.318780Z\", \"source_url\": \"https://raw.githubusercontent.com/ashtadhyayi-com/data/5744762f010d677cfb43f347a42d02796cf615d6/dhatu/dhatuforms_vidyut_shuddha_kartari.txt\"}}], \"exhaustive\": false, \"scope\": \"stored-upstream-paradigms\"}}"
+        }
+      ],
+      "structured_content": {
+        "status": "ok",
+        "snapshot": {
+          "upstream_revision": "5744762f010d677cfb43f347a42d02796cf615d6",
+          "adapter_version": "0.2.0",
+          "loaded_commentary_sources": [
+            "sutrartha",
+            "sutrartha_english",
+            "kashika"
+          ],
+          "loaded_form_sources": [
+            "dhatu/dhatuforms_krut.txt",
+            "dhatu/dhatuforms_vidyut_shuddha_kartari.txt",
+            "dhatu/dhatuforms_vidyut_shuddha_karmani.txt",
+            "dhatu/dhatuforms_vidyut_nich_kartari.txt",
+            "dhatu/dhatuforms_vidyut_nich_karmani.txt",
+            "dhatu/dhatuforms_vidyut_san_kartari.txt",
+            "dhatu/dhatuforms_vidyut_san_karmani.txt",
+            "dhatu/dhatuforms_vidyut_yang_kartari.txt",
+            "dhatu/dhatuforms_vidyut_yang_karmani.txt",
+            "dhatu/dhatuforms_vidyut_yangluk_kartari.txt",
+            "dhatu/dhatuforms_vidyut_yangluk_karmani.txt",
+            "dhatu/dhatuforms_vidyut_shuddha_krut.txt",
+            "dhatu/dhatuforms_vidyut_nich_krut.txt",
+            "dhatu/dhatuforms_vidyut_san_krut.txt",
+            "dhatu/dhatuforms_vidyut_yang_krut.txt",
+            "dhatu/dhatuforms_vidyut_yangluk_krut.txt",
+            "shabda/data2.txt"
+          ]
+        },
+        "data": {
+          "query": "01.0001",
+          "matched_lemma_ids": [
+            "1010001"
+          ],
+          "total": 1,
+          "offset": 0,
+          "limit": 20,
+          "next_offset": null,
+          "results": [
+            {
+              "data": {
+                "lemma_id": "1010001",
+                "baseindex": "01.0001",
+                "source_family": "vidyut",
+                "category": "tinanta",
+                "derivation": "shuddha",
+                "prayoga": "kartari",
+                "source_key": "plat",
+                "pada": "P",
+                "lakara": "lat",
+                "pratyaya": null,
+                "raw_text": "भवति;भवतः;भवन्ति;भवसि;भवथः;भवथ;भवामि;भवावः;भवामः",
+                "cells": [
+                  {
+                    "group_index": 0,
+                    "slot_index": 0,
+                    "raw_text": "भवति",
+                    "variants": [
+                      "भवति"
+                    ],
+                    "purusha": "prathama",
+                    "vacana": 1,
+                    "vibhakti": null,
+                    "linga": null,
+                    "role": "finite"
+                  },
+                  {
+                    "group_index": 0,
+                    "slot_index": 1,
+                    "raw_text": "भवतः",
+                    "variants": [
+                      "भवतः"
+                    ],
+                    "purusha": "prathama",
+                    "vacana": 2,
+                    "vibhakti": null,
+                    "linga": null,
+                    "role": "finite"
+                  },
+                  {
+                    "group_index": 0,
+                    "slot_index": 2,
+                    "raw_text": "भवन्ति",
+                    "variants": [
+                      "भवन्ति"
+                    ],
+                    "purusha": "prathama",
+                    "vacana": 3,
+                    "vibhakti": null,
+                    "linga": null,
+                    "role": "finite"
+                  },
+                  {
+                    "group_index": 0,
+                    "slot_index": 3,
+                    "raw_text": "भवसि",
+                    "variants": [
+                      "भवसि"
+                    ],
+                    "purusha": "madhyama",
+                    "vacana": 1,
+                    "vibhakti": null,
+                    "linga": null,
+                    "role": "finite"
+                  },
+                  {
+                    "group_index": 0,
+                    "slot_index": 4,
+                    "raw_text": "भवथः",
+                    "variants": [
+                      "भवथः"
+                    ],
+                    "purusha": "madhyama",
+                    "vacana": 2,
+                    "vibhakti": null,
+                    "linga": null,
+                    "role": "finite"
+                  },
+                  {
+                    "group_index": 0,
+                    "slot_index": 5,
+                    "raw_text": "भवथ",
+                    "variants": [
+                      "भवथ"
+                    ],
+                    "purusha": "madhyama",
+                    "vacana": 3,
+                    "vibhakti": null,
+                    "linga": null,
+                    "role": "finite"
+                  },
+                  {
+                    "group_index": 0,
+                    "slot_index": 6,
+                    "raw_text": "भवामि",
+                    "variants": [
+                      "भवामि"
+                    ],
+                    "purusha": "uttama",
+                    "vacana": 1,
+                    "vibhakti": null,
+                    "linga": null,
+                    "role": "finite"
+                  },
+                  {
+                    "group_index": 0,
+                    "slot_index": 7,
+                    "raw_text": "भवावः",
+                    "variants": [
+                      "भवावः"
+                    ],
+                    "purusha": "uttama",
+                    "vacana": 2,
+                    "vibhakti": null,
+                    "linga": null,
+                    "role": "finite"
+                  },
+                  {
+                    "group_index": 0,
+                    "slot_index": 8,
+                    "raw_text": "भवामः",
+                    "variants": [
+                      "भवामः"
+                    ],
+                    "purusha": "uttama",
+                    "vacana": 3,
+                    "vibhakti": null,
+                    "linga": null,
+                    "role": "finite"
+                  }
+                ],
+                "parse_status": "decoded",
+                "warnings": []
+              },
+              "provenance": {
+                "provider": "ashtadhyayi-com",
+                "repository": "https://github.com/ashtadhyayi-com/data",
+                "source_path": "dhatu/dhatuforms_vidyut_shuddha_kartari.txt",
+                "source_identifier": "01.0001",
+                "source_pointer": "/01.0001/plat",
+                "upstream_revision": "5744762f010d677cfb43f347a42d02796cf615d6",
+                "source_sha256": "2b58781b2da74e74e970a0f79be84b7140e5efdb2dd28afe7c86725a6281b2c5",
+                "retrieved_at": "2026-09-28T18:19:10.318780Z",
+                "source_url": "https://raw.githubusercontent.com/ashtadhyayi-com/data/5744762f010d677cfb43f347a42d02796cf615d6/dhatu/dhatuforms_vidyut_shuddha_kartari.txt"
+              }
+            }
+          ],
+          "coverage": [
+            {
+              "lemma_id": "1010001",
+              "source_path": "dhatu/dhatuforms_vidyut_shuddha_kartari.txt",
+              "status": "present",
+              "source_identifier": "01.0001",
+              "available_keys": [
+                "pashirling",
+                "plang",
+                "plat",
+                "plit",
+                "plot",
+                "plrung",
+                "plrut",
+                "plung",
+                "plut",
+                "pvidhiling"
+              ],
+              "provenance": {
+                "provider": "ashtadhyayi-com",
+                "repository": "https://github.com/ashtadhyayi-com/data",
+                "source_path": "dhatu/dhatuforms_vidyut_shuddha_kartari.txt",
+                "source_identifier": "01.0001",
+                "source_pointer": "/01.0001",
+                "upstream_revision": "5744762f010d677cfb43f347a42d02796cf615d6",
+                "source_sha256": "2b58781b2da74e74e970a0f79be84b7140e5efdb2dd28afe7c86725a6281b2c5",
+                "retrieved_at": "2026-09-28T18:19:10.318780Z",
+                "source_url": "https://raw.githubusercontent.com/ashtadhyayi-com/data/5744762f010d677cfb43f347a42d02796cf615d6/dhatu/dhatuforms_vidyut_shuddha_kartari.txt"
+              }
+            }
+          ],
+          "exhaustive": false,
+          "scope": "stored-upstream-paradigms"
+        }
+      }
+    },
+    "error": null,
+    "status": "completed"
+  }
+]

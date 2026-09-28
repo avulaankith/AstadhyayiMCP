@@ -1,0 +1,42 @@
+[build-system]
+requires = ["hatchling>=1.27,<2"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ashtadhyayi-mcp"
+version = "0.2.0"
+description = "Read-only, source-preserving MCP access to Ashtadhyayi.com scholarly data"
+readme = "README.md"
+requires-python = ">=3.12"
+license = "MIT"
+license-files = ["LICENSE", "THIRD_PARTY_NOTICES.md"]
+dependencies = ["mcp==2.2.0", "pydantic>=2.13.5,<3"]
+
+[project.scripts]
+ashtadhyayi-mcp = "ashtadhyayi_mcp.cli:main"
+
+[dependency-groups]
+dev = ["pytest>=9,<10", "ruff>=0.16,<0.17", "mypy>=2.3,<3", "jsonschema>=4.26,<5"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/ashtadhyayi_mcp"]
+
+[tool.hatch.build.targets.sdist]
+include = ["src", "tests", "docs", "examples", ".github", "README.md", "CONTRIBUTING.md", "LICENSE", "THIRD_PARTY_NOTICES.md", "pyproject.toml", "uv.lock", ".gitignore"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["integration: requires an explicitly synced full upstream snapshot"]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+ignore = ["UP046"]
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
+files = ["src/ashtadhyayi_mcp"]

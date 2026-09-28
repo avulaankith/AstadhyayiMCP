@@ -1,0 +1,151 @@
+{
+  "python": "3.14.3",
+  "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+  "revision": "5744762f010d677cfb43f347a42d02796cf615d6",
+  "startup_ms": 839.62,
+  "total_fields": 507628,
+  "total_cells": 3551190,
+  "sources": [
+    {
+      "path": "dhatu/dhatuforms_krut.txt",
+      "fields": 22270,
+      "decoded_cells": 22270
+    },
+    {
+      "path": "dhatu/dhatuforms_vidyut_shuddha_kartari.txt",
+      "fields": 28304,
+      "decoded_cells": 254736
+    },
+    {
+      "path": "dhatu/dhatuforms_vidyut_shuddha_karmani.txt",
+      "fields": 22290,
+      "decoded_cells": 200610
+    },
+    {
+      "path": "dhatu/dhatuforms_vidyut_nich_kartari.txt",
+      "fields": 44500,
+      "decoded_cells": 400500
+    },
+    {
+      "path": "dhatu/dhatuforms_vidyut_nich_karmani.txt",
+      "fields": 22290,
+      "decoded_cells": 200610
+    },
+    {
+      "path": "dhatu/dhatuforms_vidyut_san_kartari.txt",
+      "fields": 28782,
+      "decoded_cells": 259038
+    },
+    {
+      "path": "dhatu/dhatuforms_vidyut_san_karmani.txt",
+      "fields": 22290,
+      "decoded_cells": 200610
+    },
+    {
+      "path": "dhatu/dhatuforms_vidyut_yang_kartari.txt",
+      "fields": 17792,
+      "decoded_cells": 160128
+    },
+    {
+      "path": "dhatu/dhatuforms_vidyut_yang_karmani.txt",
+      "fields": 17820,
+      "decoded_cells": 160380
+    },
+    {
+      "path": "dhatu/dhatuforms_vidyut_yangluk_kartari.txt",
+      "fields": 17792,
+      "decoded_cells": 160128
+    },
+    {
+      "path": "dhatu/dhatuforms_vidyut_yangluk_karmani.txt",
+      "fields": 17820,
+      "decoded_cells": 160380
+    },
+    {
+      "path": "dhatu/dhatuforms_vidyut_shuddha_krut.txt",
+      "fields": 50705,
+      "decoded_cells": 226164
+    },
+    {
+      "path": "dhatu/dhatuforms_vidyut_nich_krut.txt",
+      "fields": 51160,
+      "decoded_cells": 238048
+    },
+    {
+      "path": "dhatu/dhatuforms_vidyut_san_krut.txt",
+      "fields": 54682,
+      "decoded_cells": 295104
+    },
+    {
+      "path": "dhatu/dhatuforms_vidyut_yang_krut.txt",
+      "fields": 40953,
+      "decoded_cells": 185696
+    },
+    {
+      "path": "dhatu/dhatuforms_vidyut_yangluk_krut.txt",
+      "fields": 39171,
+      "decoded_cells": 210620
+    },
+    {
+      "path": "shabda/data2.txt",
+      "fields": 9007,
+      "decoded_cells": 216168
+    }
+  ],
+  "queries": [
+    {
+      "query": "भवति",
+      "matches": 5,
+      "first_ms": 201.209,
+      "repeat_ms": 0.075
+    },
+    {
+      "query": "रामौ",
+      "matches": 3,
+      "first_ms": 227.334,
+      "repeat_ms": 0.052
+    },
+    {
+      "query": "कुर्वन्ति",
+      "matches": 1,
+      "first_ms": 192.011,
+      "repeat_ms": 0.042
+    },
+    {
+      "query": "भूत्वा",
+      "matches": 7,
+      "first_ms": 195.583,
+      "repeat_ms": 0.077
+    },
+    {
+      "query": "भावयति",
+      "matches": 6,
+      "first_ms": 197.446,
+      "repeat_ms": 0.063
+    },
+    {
+      "query": "बुभूषति",
+      "matches": 3,
+      "first_ms": 193.456,
+      "repeat_ms": 0.053
+    },
+    {
+      "query": "रामात्",
+      "matches": 1,
+      "first_ms": 198.979,
+      "repeat_ms": 0.049
+    },
+    {
+      "query": "हे रामौ",
+      "matches": 1,
+      "first_ms": 193.042,
+      "repeat_ms": 0.056
+    },
+    {
+      "query": "__absent_test_form__",
+      "matches": 0,
+      "first_ms": 187.106,
+      "repeat_ms": 0.037
+    }
+  ]
+}
