@@ -1,5 +1,12 @@
 # Test results — 2026-09-28
 
+HTTP deployment extension: **210 tests passed, 0 failures/errors/skips in 35.38 seconds**.
+This adds nine HTTP checks, including all eleven tools over real sockets in both
+protocol modes with fixtures and the full corpus. [Latest JUnit results](test-results/http-suite.xml).
+Lint, formatting, strict typing and distribution builds also passed. Docker itself
+was unavailable locally, so the container image was not built. The original
+201-test audit and its measurements are retained below.
+
 **201 tests passed, 0 failed, 0 errors, 0 skipped in 30.70 seconds.**
 The original 182-test suite also passed before adding 19 integration cases.
 No application defect was found in these runs; changes were additional tests and this report.

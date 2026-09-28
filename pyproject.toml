@@ -10,7 +10,7 @@ readme = "README.md"
 requires-python = ">=3.12"
 license = "MIT"
 license-files = ["LICENSE", "THIRD_PARTY_NOTICES.md"]
-dependencies = ["mcp==2.2.0", "pydantic>=2.13.5,<3"]
+dependencies = ["mcp==2.2.0", "pydantic>=2.13.5,<3", "starlette>=1.7,<2", "uvicorn>=0.54,<1"]
 
 [project.scripts]
 ashtadhyayi-mcp = "ashtadhyayi_mcp.cli:main"
@@ -22,7 +22,7 @@ dev = ["pytest>=9,<10", "ruff>=0.16,<0.17", "mypy>=2.3,<3", "jsonschema>=4.26,<5
 packages = ["src/ashtadhyayi_mcp"]
 
 [tool.hatch.build.targets.sdist]
-include = ["src", "tests", "docs", "examples", ".github", "README.md", "CONTRIBUTING.md", "LICENSE", "THIRD_PARTY_NOTICES.md", "pyproject.toml", "uv.lock", ".gitignore"]
+include = ["src", "tests", "docs", "examples", "deploy", ".github", "Dockerfile", ".dockerignore", "README.md", "CONTRIBUTING.md", "LICENSE", "THIRD_PARTY_NOTICES.md", "pyproject.toml", "uv.lock", ".gitignore"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

@@ -48,6 +48,10 @@ the MCP server to load a new snapshot. Previous snapshots are retained.
 
 ## MCP client configuration
 
+For ChatGPT or remote agents, use the new `serve-http` command and deploy its
+`/mcp` endpoint behind HTTPS. See [ChatGPT deployment](docs/chatgpt-deployment.md)
+for local testing, container/native hosting and connection instructions.
+
 For a real agent walkthrough, setup commands and observed results, see
 [testing with Codex](docs/agent-testing.md). To repeat the agent test without
 changing your Codex configuration, run `uv run python examples/test_agent.py`.

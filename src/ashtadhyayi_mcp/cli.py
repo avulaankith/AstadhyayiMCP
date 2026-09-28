@@ -33,6 +33,10 @@ def main() -> None:
         help="full includes all stored dhātu/śabda paradigms; core is smaller",
     )
     sub.add_parser("serve", help="Run the offline stdio MCP server")
+    http = sub.add_parser("serve-http", help="Run the public read-only Streamable HTTP MCP server")
+    http.add_argument("--host", default="127.0.0.1")
+    http.add_argument("--port", type=int, default=int(os.environ.get("PORT", "8000")))
+    http.add_argument("--public-host", default=os.environ.get("ASHTADHYAYI_PUBLIC_HOST"))
     sub.add_parser("status", help="Validate and describe the active snapshot")
     demo = sub.add_parser("demo", help="Run the evidence-first demonstration MCP client")
     demo.add_argument("question")
@@ -66,6 +70,20 @@ def main() -> None:
             from .server import serve
 
             asyncio.run(serve(args.data_dir))
+        elif args.command == "serve-http":
+            import uvicorn
+
+            from .http import create_http_app
+
+            if not 1 <= args.port <= 65535:
+                parser.error("port must be in 1..65535")
+            uvicorn.run(
+                create_http_app(args.data_dir, public_host=args.public_host),
+                host=args.host,
+                port=args.port,
+                limit_concurrency=32,
+                timeout_keep_alive=5,
+            )
         else:
             from .demo import demonstrate
 

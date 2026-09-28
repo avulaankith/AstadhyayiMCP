@@ -33,6 +33,11 @@ The trace excludes unrelated Codex session metadata. The agent performed no shel
 commands or repository edits. One successful scenario run does not establish
 reliability for arbitrary prompts or models.
 
+The reusable wrapper was also executed: all seven MCP requests succeeded, but
+the model account reached its usage limit before generating its final answer.
+The wrapper reported exit code 1 and preserved the failure in `events.jsonl`.
+That replay is incomplete, not a second passing agent evaluation.
+
 ## Prepare this checkout
 
 ```sh

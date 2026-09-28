@@ -36,6 +36,8 @@ source = { editable = "." }
 dependencies = [
     { name = "mcp" },
     { name = "pydantic" },
+    { name = "starlette" },
+    { name = "uvicorn" },
 ]
 
 [package.dev-dependencies]
@@ -50,6 +52,8 @@ dev = [
 requires-dist = [
     { name = "mcp", specifier = "==2.2.0" },
     { name = "pydantic", specifier = ">=2.13.5,<3" },
+    { name = "starlette", specifier = ">=1.7,<2" },
+    { name = "uvicorn", specifier = ">=0.54,<1" },
 ]
 
 [package.metadata.requires-dev]

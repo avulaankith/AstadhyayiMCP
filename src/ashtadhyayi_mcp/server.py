@@ -210,8 +210,8 @@ class Dispatcher:
         )
 
 
-def create_server(data_dir: Path) -> Server[None]:
-    dispatcher = Dispatcher(data_dir)
+def create_server(data_dir: Path, *, dispatcher: Dispatcher | None = None) -> Server[None]:
+    dispatcher = dispatcher or Dispatcher(data_dir)
 
     async def list_tools(
         ctx: ServerRequestContext[None],
